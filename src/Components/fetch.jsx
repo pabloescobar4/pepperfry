@@ -28,9 +28,9 @@ const FetchApi = () => {
       .then((response) => {
         setLoading(false);
         // const data =(response.data)
-        const newdata = response.data
-        console.log(newdata.sofas)
-       // setData(response.data);
+        
+        console.log(response)
+        setData(response.data);
         
       })
 
@@ -50,7 +50,7 @@ const FetchApi = () => {
     <div>
 
      
-      <div className="container">
+      <div className="container ">
       
         {data.map((a) => {
           return (
