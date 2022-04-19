@@ -2,29 +2,31 @@ import React ,{useEffect, useState} from "react";
 import axios from "axios";
 
 function Fetch() {
-const [data,setData] = useState([])
-useEffect (() =>{
+const [items,setItems] = useState([])
 
 
-		axios.get('http://localhost:8000/furniture')
-		.then(response => {
-			console.log(response.data)
-			//setData(response.data)
-		})
-		.catch((error) =>{
-			console.log(error)
-		})
-	},[])
+  useEffect(() => {
+    axios
+      .get(' http://localhost:8000/furniture')
+      .then((response) => {
+		  const data1 = response.data.sofas
+        //console.log(data1);
+        setItems(response.data1);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }, []);
+
 	return ( 
 		<div>
-         <div>{
-        //    data.map((d) =>{
-        //  return(
-		// 	 <h1>{d.beds}</h1>
-		//  )
-		//    })
-		}
-		 </div>
+        <h1>{items.map((a) => {
+			return(
+          <h1>{a.name}</h1>
+			)
+				
+			
+		})}</h1> 
 		</div>
 	 );
 }
