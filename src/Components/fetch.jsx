@@ -28,6 +28,7 @@ const FetchApi = () => {
       .then((response) => {
         setLoading(false);
         // const data =(response.data)
+        
         console.log(data)
         setData(response.data.sofas);
         
@@ -67,7 +68,7 @@ const FetchApi = () => {
                       </div>
 
                       <div className="d1 mb-5">
-                        <h1>{a.category}</h1>
+                        <h1>{a.madeBy}</h1>
                       </div>
                     </div>
                     <div className="  d2">
@@ -75,7 +76,13 @@ const FetchApi = () => {
                         <p>{a.rating}</p>
                       </div>
                       <div className="text-gray-500 mt-2 d2">
-                        <h1>Rs {a.actual_price}</h1>
+                        <h1>₹ {a.actual_price}</h1>
+                      </div>
+                      <div className="text-gray-500 mt-2 d2">
+                        <h1>₹ {a.offer_price}</h1>
+                      </div>
+                      <div className="text-gray-500 mt-2 d2">
+                        <h1>Save ₹ {a.total_savings}</h1>
                       </div>
                     </div>
                   </div>
