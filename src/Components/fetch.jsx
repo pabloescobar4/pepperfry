@@ -1,10 +1,11 @@
-import {  useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import React from 'react';
 import '../App.css';
 import axios from 'axios';
 import {useSelector,useDispatch} from 'react-redux'
 import {storeData } from '../redux/action'
-
+import Box from '@mui/material/Box';
+import { Pagination } from '@mui/material';
 
 
 const FetchApi = () => {
@@ -12,13 +13,13 @@ const FetchApi = () => {
 
  
 const dispatch = useDispatch()
- 
+const [page, setPage] = useState(1);
 
  
   const fetchData = async () => {
 
     return axios({
-      url: 'http://localhost:8000/furniture',
+      url: `http://localhost:8000/furniture?_page=${page}`,
       method: 'GET',
       params: {
        
@@ -43,7 +44,7 @@ const dispatch = useDispatch()
   useEffect(() => {
     fetchData();
   
-  }, []);
+  }, [page]);
 
   const data = useSelector((state ) => state.data.data)
  console.log(data)
@@ -94,7 +95,14 @@ const dispatch = useDispatch()
         })}
       </div>
      
-
+      <Box py={3} display="flex" justifyContent="center">
+          <Pagination
+            count={10}
+            color="secondary"
+            variant="outlined"
+            onChange={(e, value) => setPage(value)}
+          />
+        </Box>
     
     </div>
   );
