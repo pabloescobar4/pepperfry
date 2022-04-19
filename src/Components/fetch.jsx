@@ -1,22 +1,22 @@
-import { useState, useEffect } from 'react';
+import {  useEffect } from 'react';
 import React from 'react';
 import '../App.css';
 import axios from 'axios';
+import {useSelector,useDispatch} from 'react-redux'
+import {storeData } from '../redux/action'
 
 
 
 const FetchApi = () => {
-  const [data, setData] = useState([]);
+ // const [data, setData] = useState([]);
 
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(false);
+ 
+const dispatch = useDispatch()
  
 
  
+  const fetchData = async () => {
 
- 
-  const fetchData = async (page, limit, filter) => {
-    setLoading(true);
     return axios({
       url: 'http://localhost:8000/furniture',
       method: 'GET',
@@ -25,18 +25,18 @@ const FetchApi = () => {
       
       },
     })
+      
       .then((response) => {
-        setLoading(false);
+ 
         // const data =(response.data)
         
-        console.log(response)
-        setData(response.data);
+       // console.log(response.data)
+        dispatch(storeData(response));
         
       })
 
       .catch((error) => {
-        setLoading(true);
-        setError(true);
+    
       });
   };
 
@@ -45,7 +45,8 @@ const FetchApi = () => {
   
   }, []);
 
-
+  const data = useSelector((state ) => state.data.data)
+ console.log(data)
   return (
     <div>
 

@@ -9,4 +9,4 @@ const storeData = (payload) => ({
 	payload:payload
 })
 
-export default storeData
+export { storeData}
