@@ -7,14 +7,19 @@ import { storeData } from '../redux/action';
 import Box from '@mui/material/Box';
 import { Pagination } from '@mui/material';
 import {Search }from './Search.jsx'
-
+import {useNavigate,useParams} from 'react-router';
 
 
 
 
 const ProductPage = () => {
   // const [data, setData] = useState([]);
+  const [search,setSearch] = useState("")
 
+	console.log(search)
+const params = useParams()
+const navigate = useNavigate()
+const [category,setCategory] = useState("")
   const dispatch = useDispatch();
   const [page, setPage] = useState(1);
 
@@ -43,12 +48,26 @@ const ProductPage = () => {
   return (
     <div>
        <div>
-        <Search />
+       <input type="text"placeholder="What are you loooking for" className="search" onChange={(e) => setSearch(e.target.value)} />
         </div>
+{/* 
+        <div>
+          products is {params.id}
+        </div> */}
       <div className="container ">
        
      
-        {data.map((a) => {
+        {data
+        .filter((a) => {
+          if(search === ""){
+            return a
+          }else{
+            return a.name.toLowerCase().includes(search.toLowerCase())  || a.madeBy.toLowerCase().includes(search.toLowerCase())  
+          }
+          
+        })
+
+        .map((a) => {
           return (
             <>
               <div>

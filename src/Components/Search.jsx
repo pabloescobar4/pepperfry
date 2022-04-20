@@ -1,11 +1,14 @@
 import React from 'react'
+import {useState  } from 'react'
+import { useSelector } from 'react-redux';
 
+export const Search = () => {
+	const data = useSelector((state) => state.data);
+	console.log(data);
 
-
-export const Search = (props) => {
   return(
 	<div>
-		<input type="text"placeholder="What are you loooking for" className="search" />
+	
 	</div>
    )
   }
