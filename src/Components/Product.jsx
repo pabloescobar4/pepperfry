@@ -2,58 +2,52 @@ import { useState, useEffect } from 'react';
 import React from 'react';
 import '../App.css';
 import axios from 'axios';
-import {useSelector,useDispatch} from 'react-redux'
-import {storeData } from '../redux/action'
+import { useSelector, useDispatch } from 'react-redux';
+import { storeData } from '../redux/action';
 import Box from '@mui/material/Box';
 import { Pagination } from '@mui/material';
+import {Search }from './Search.jsx'
 
 
-const FetchApi = () => {
- // const [data, setData] = useState([]);
 
- 
-const dispatch = useDispatch()
-const [page, setPage] = useState(1);
 
- 
+
+const ProductPage = () => {
+  // const [data, setData] = useState([]);
+
+  const dispatch = useDispatch();
+  const [page, setPage] = useState(1);
+
   const fetchData = async () => {
-
     return axios({
       url: `http://localhost:8000/furniture?_page=${page}`,
       method: 'GET',
-      params: {
-       
-      
-      },
+      params: {},
     })
-      
       .then((response) => {
- 
         // const data =(response.data)
-        
-       // console.log(response.data)
-        dispatch(storeData(response));
-        
+
+        // console.log(response.data)
+        dispatch(storeData(response.data));
       })
 
-      .catch((error) => {
-    
-      });
+      .catch((error) => {});
   };
 
   useEffect(() => {
     fetchData();
-  
   }, [page]);
 
-  const data = useSelector((state ) => state.data.data)
- console.log(data)
+  const data = useSelector((state) => state.data);
+  console.log(data);
   return (
     <div>
-
-     
+       <div>
+        <Search />
+        </div>
       <div className="container ">
-      
+       
+     
         {data.map((a) => {
           return (
             <>
@@ -94,18 +88,17 @@ const [page, setPage] = useState(1);
           );
         })}
       </div>
-     
+
       <Box py={3} display="flex" justifyContent="center">
-          <Pagination
-            count={10}
-            color="secondary"
-            variant="outlined"
-            onChange={(e, value) => setPage(value)}
-          />
-        </Box>
-    
+        <Pagination
+          count={10}
+          color="secondary"
+          variant="outlined"
+          onChange={(e, value) => setPage(value)}
+        />
+      </Box>
     </div>
   );
 };
 
-export default FetchApi;
+export { ProductPage};
