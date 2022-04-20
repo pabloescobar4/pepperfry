@@ -8,14 +8,14 @@ import Box from '@mui/material/Box';
 import { Pagination } from '@mui/material';
 import {Search }from './Search.jsx'
 import {useNavigate,useParams} from 'react-router';
-
+import {Button ,ButtonGroup} from '@mui/material'
 
 
 
 const ProductPage = () => {
   // const [data, setData] = useState([]);
   const [search,setSearch] = useState("")
-
+  const [value,setValue] = useState([])
 	console.log(search)
 const params = useParams()
 const navigate = useNavigate()
@@ -43,10 +43,38 @@ const [category,setCategory] = useState("")
     fetchData();
   }, [page]);
 
+
   const data = useSelector((state) => state.data);
   console.log(data);
+
+  const sortBylow =(m) => {
+    if(m==="l"){
+     let res = data.sort((a,b) => a.price - b.price)
+     setValue([...res])
+     //console.log(res)
+    }else if( m==="h"){
+      let res = data.sort((a,b) => b.price - a.price)
+      setValue([...res])
+      //console.log(res)
+    }
+    
+    }
+
+  
   return (
     <div>
+
+<ButtonGroup variant="contained" aria-label="outlined primary button group">
+  <Button onClick= {() => {sortBylow("l")}}>Low To High</Button>
+  <Button onClick= {() => {sortBylow("h")}}>high to low</Button>
+  <Button>Three</Button>
+</ButtonGroup>
+      {/* <h1 >
+        Low to High
+      </h1>
+      <h1 >
+       High to low
+      </h1> */}
        <div>
        <input type="text"placeholder="What are you loooking for" className="search" onChange={(e) => setSearch(e.target.value)} />
         </div>
@@ -98,6 +126,9 @@ const [category,setCategory] = useState("")
                       </div>
                       <div className="text-gray-500 mt-2 d2">
                         <p>Save ₹ {a.total_savings}</p>
+                      </div>
+                      <div className="text-gray-500 mt-2 d2">
+                        <p>Save ₹ {a.price}</p>
                       </div>
                     </div>
                   </div>
