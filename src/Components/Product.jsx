@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import React from 'react';
-import '../App.css';
+import './product.css';
 import axios from 'axios';
 import { useSelector, useDispatch } from 'react-redux';
 import { storeData } from '../redux/action';
@@ -16,7 +16,8 @@ const ProductPage = () => {
   // const [data, setData] = useState([]);
   const [search,setSearch] = useState("")
   const [value,setValue] = useState([])
-	console.log(search)
+	//console.log(search)
+  const [val,setVal] = useState([])
 const params = useParams()
 const navigate = useNavigate()
 const [category,setCategory] = useState("")
@@ -59,6 +60,18 @@ const [category,setCategory] = useState("")
     }
     
     }
+  
+ 
+  const filterByPrice1 = () => {
+ 
+      let productPrice = data.filter((p) =>  p.price >=50000)
+      setValue([...productPrice])
+     
+    
+  
+  }
+  
+  
 
   
   return (
@@ -67,7 +80,7 @@ const [category,setCategory] = useState("")
 <ButtonGroup variant="contained" aria-label="outlined primary button group">
   <Button onClick= {() => {sortBylow("l")}}>Low To High</Button>
   <Button onClick= {() => {sortBylow("h")}}>high to low</Button>
-  <Button>Three</Button>
+  <Button onClick= {() => {filterByPrice1()}}>Three</Button>
 </ButtonGroup>
       {/* <h1 >
         Low to High
@@ -100,8 +113,8 @@ const [category,setCategory] = useState("")
             <>
               <div>
                 <div className="one  p-5 rounded-xl h-full ">
-                  <div classname="img">
-                    <img src={a.img[0]} alt="" />
+                  <div >
+                    <img src={a.img[0]} alt="" id="img" />
                   </div>
 
                   <div className=" mt-1 mb-2  ">
@@ -139,7 +152,7 @@ const [category,setCategory] = useState("")
         })}
       </div>
 
-      <Box py={3} display="flex" justifyContent="center">
+      <Box py={4} display="flex" justifyContent="center">
         <Pagination
           count={10}
           color="secondary"

@@ -2,11 +2,13 @@ import {ProductPage} from './Components/Product.jsx'
 import './App.css';
 import { Routes, Route, useParams } from "react-router-dom";
 import {HomePage} from "./Components/HomePage"
-import {NavBar}  from "./Components/Navbar.jsx"
+import  {NavBar}  from "./Components/Navbar"
 import {Cart} from "./Components/Cart"
+
 function App() {
   return (
    <>
+   {/* <Header /> */}
    <NavBar />
     <Routes>
         <Route path="/home" element={<HomePage />} />
