@@ -1,10 +1,10 @@
-import { STORE_DATA } from "./storeData/actionType"
+import { STORE_DATA } from "./actionType"
 
 const initState = {
 	data:[]
 }
 
-const reducer = (state = initState,action) => {
+const dataReducer = (state = initState,action) => {
 
 	switch (action.type) {
 		case STORE_DATA : 
@@ -18,4 +18,4 @@ const reducer = (state = initState,action) => {
 
 }
 
-export { reducer}
+export { dataReducer}

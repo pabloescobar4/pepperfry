@@ -47,7 +47,7 @@ const [category,setCategory] = useState("")
   }, [page]);
 
 
-  const data = useSelector((state) => state.data);
+  const data = useSelector((state) => state.data.data);
   console.log(data);
 
   const sortBylow =(m) => {
