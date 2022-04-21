@@ -3,7 +3,7 @@ import React from 'react';
 import './product.css';
 import axios from 'axios';
 import { useSelector, useDispatch } from 'react-redux';
-import { storeData } from '../redux/action';
+import { storeData } from '../redux/storeData/action';
 import Box from '@mui/material/Box';
 import { Pagination } from '@mui/material';
 import {Search }from './Search.jsx'
@@ -14,10 +14,11 @@ import {Button ,ButtonGroup} from '@mui/material'
 
 const ProductPage = () => {
   // const [data, setData] = useState([]);
+
   const [search,setSearch] = useState("")
   const [value,setValue] = useState([])
 	//console.log(search)
-  const [val,setVal] = useState([])
+  const [val,setVal] = useState("")
 const params = useParams()
 const navigate = useNavigate()
 const [category,setCategory] = useState("")
@@ -26,7 +27,7 @@ const [category,setCategory] = useState("")
 
   const fetchData = async () => {
     return axios({
-      url: `http://localhost:8000/furniture?_page=${page}`,
+      url: `http://localhost:8000/furniture?_page=${page}&_limit=30`,
       method: 'GET',
       params: {},
     })
@@ -62,35 +63,35 @@ const [category,setCategory] = useState("")
     }
   
  
-  const filterByPrice1 = () => {
+  // const filterByPrice1 = () => {
  
-      let productPrice = data.filter((p) =>  p.price >=50000)
-      setValue([...productPrice])
+  //     let productPrice = data.filter((p) =>  p.price >=50000)
+  //     console.log(productPrice)
+  //     setValue([...productPrice])
      
     
   
-  }
+  // }
   
-  
+  //console.log(setVal)
 
   
   return (
     <div>
 
-<ButtonGroup variant="contained" aria-label="outlined primary button group">
+<ButtonGroup variant="contained" aria-label="outlined primary button group" className="">
   <Button onClick= {() => {sortBylow("l")}}>Low To High</Button>
   <Button onClick= {() => {sortBylow("h")}}>high to low</Button>
-  <Button onClick= {() => {filterByPrice1()}}>Three</Button>
-</ButtonGroup>
-      {/* <h1 >
-        Low to High
-      </h1>
-      <h1 >
-       High to low
-      </h1> */}
-       <div>
+  <Button onClick={() => {setVal("sofas")}} >Sofas</Button>
+  <Button onClick={() => {setVal("Chair")}} >Chair</Button>
+  <Button onClick={() => {setVal("Settee")}} >Settee</Button>
+  <Button onClick={() => {setVal("Armchair")}} >ArmChair</Button>
+  <div>
        <input type="text"placeholder="What are you loooking for" className="search" onChange={(e) => setSearch(e.target.value)} />
         </div>
+</ButtonGroup>
+    
+      
 {/* 
         <div>
           products is {params.id}
@@ -99,6 +100,14 @@ const [category,setCategory] = useState("")
        
      
         {data
+        .filter((el) => {
+          
+          if(el.category === val){
+            return el.category ===val
+          }else if(val === ""){
+              return el
+          }
+       })
         .filter((a) => {
           if(search === ""){
             return a
@@ -107,7 +116,8 @@ const [category,setCategory] = useState("")
           }
           
         })
-
+        
+        
         .map((a) => {
           return (
             <>

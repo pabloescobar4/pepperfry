@@ -1,4 +1,4 @@
-import { STORE_DATA } from "./actionType"
+import { STORE_DATA } from "./storeData/actionType"
 
 const initState = {
 	data:[]
