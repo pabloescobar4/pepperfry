@@ -6,6 +6,9 @@ import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlin
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 const NavBar = () => {
 	const navigate = useNavigate()
+	function handleClick() {
+		navigate('/home')
+	  }
   return(
 	  <>
 	{/* <div className="Navbar">
@@ -45,7 +48,7 @@ const NavBar = () => {
 	<div className="Navbar2">
 		<div >
 		<div id="img11">
-		<img src="https://ii1.pepperfry.com/images/pf-logo-bday-21.gif" alt="" className="" />
+		<img src="https://ii1.pepperfry.com/images/pf-logo-bday-21.gif" alt="" className="cursor-pointer" onClick={handleClick}  />
 	</div>
 		</div>
 
@@ -53,19 +56,19 @@ const NavBar = () => {
 			<input type="text" placeholder="Your door to happiness opens with a search" className="" />
 		</div>
 		<div>
-		<div >
+		<div className="cursor-pointer" >
 			<p id="nbicons">HELP</p>
 		</div>
 		
 	   </div>
 	   <div className="mt">
 	 
-	   <PersonSharpIcon fontSize="large"/>
+	   <PersonSharpIcon fontSize="large" className="cursor-pointer"/>
 	   </div>
-	   <div className="mt">
+	   <div className="mt cursor-pointer">
        <FavoriteBorderOutlinedIcon fontSize="large" />
 	   </div>
-	   <div className="mt">
+	   <div className="mt cursor-pointer">
 	   <ShoppingCartIcon fontSize="large"  />
 	   </div>
 	</div>

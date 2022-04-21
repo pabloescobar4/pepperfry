@@ -12,6 +12,7 @@ import {Button ,ButtonGroup} from '@mui/material'
 
 
 
+
 const ProductPage = () => {
   // const [data, setData] = useState([]);
 
@@ -78,27 +79,67 @@ const [category,setCategory] = useState("")
   
   return (
     <div>
-
-<ButtonGroup variant="contained" aria-label="outlined primary button group" className="">
-  <Button onClick= {() => {sortBylow("l")}}>Low To High</Button>
-  <Button onClick= {() => {sortBylow("h")}}>high to low</Button>
-  <Button onClick={() => {setVal("sofas")}} >Sofas</Button>
-  <Button onClick={() => {setVal("Chair")}} >Chair</Button>
-  <Button onClick={() => {setVal("Settee")}} >Settee</Button>
-  <Button onClick={() => {setVal("Armchair")}} >ArmChair</Button>
   <div>
        <input type="text"placeholder="What are you loooking for" className="search" onChange={(e) => setSearch(e.target.value)} />
         </div>
-</ButtonGroup>
+
     
       
 {/* 
         <div>
           products is {params.id}
         </div> */}
-      <div className="container ">
+
+
        
+  
+      
+
+    <div className="flex">
+       <div >
+       <Box
+      sx={{
+        display: 'flex',
+       
+        '& > *': {
+          m: 2,
+        },
+      }}
+ >
      
+      <ButtonGroup
+        orientation="vertical"
+        aria-label="vertical contained button group"
+        variant="contained"
+    
+      >
+   <div className=""> 
+  <Button className="mt-5 w-48" onClick= {() => {sortBylow("l")}}>Low To High</Button>
+  </div>
+  <div className="mt-5">
+  <Button className="mt-5 w-48" onClick= {() => {sortBylow("h")}}>high to low</Button>
+  </div>
+  <div className="mt-5">
+ 
+  <Button className="mt-5 w-48" onClick={() => {setVal("sofas")}} >Sofas </Button>
+  </div>
+  <div className="mt-5">
+  <Button className="mt-5 w-48"onClick={() => {setVal("Chair")}} >Chair</Button>
+  </div>
+  <div className="mt-5">
+  <Button className="mt-5 w-48" onClick={() => {setVal("Settee")}} >Settee</Button>
+  </div>
+<div className="mt-5"> 
+<Button className="mt-5 w-48" onClick={() => {setVal("Armchair")}} >ArmChair</Button>
+</div>
+      </ButtonGroup>
+  
+    </Box>
+       </div>
+      
+      <div className="container ">
+    
+   
         {data
         .filter((el) => {
           
@@ -121,38 +162,37 @@ const [category,setCategory] = useState("")
         .map((a) => {
           return (
             <>
-              <div>
-                <div className="one  p-5 rounded-xl h-full ">
+              <div className="borde w-80 ">
+                <div className="   h-full ">
                   <div >
                     <img src={a.img[0]} alt="" id="img" />
                   </div>
 
                   <div className=" mt-1 mb-2  ">
-                    <div className="d1">
-                      <div className="text-lg font-semi-bold ">
-                        <p>{a.name}</p>
+                   
+                      <div className="text-md font-semi-bold borde w-72 ">
+                        {a.name}
                       </div>
 
-                      <div className="d1 mb-5">
+                      <div className="text-sm mb-5">
                         <p>{a.madeBy}</p>
                       </div>
-                    </div>
-                    <div className="  d2">
-                      <div className="bg-green-700 w-10 rounded-md text-white pl-2 font-bold ">
-                        <p>{a.rating}</p>
-                      </div>
-                      <div className="text-gray-500 mt-2 d2">
-                        <p>₹ {a.actual_price}</p>
-                      </div>
-                      <div className="text-gray-500 mt-2 d2">
+                   
+                    <div className="  ">
+                     <div className="flex w-48">
+                     
+                      <div className="text-red-400 font-bold ">
                         <p>₹ {a.offer_price}</p>
                       </div>
+                      <div className="text-gray-500 ml-5 ">
+                        <p> <del>₹{a.actual_price}</del></p>
+                      </div>
+                     </div>
+                     
                       <div className="text-gray-500 mt-2 d2">
                         <p>Save ₹ {a.total_savings}</p>
                       </div>
-                      <div className="text-gray-500 mt-2 d2">
-                        <p>Save ₹ {a.price}</p>
-                      </div>
+                     
                     </div>
                   </div>
                 </div>
@@ -160,6 +200,7 @@ const [category,setCategory] = useState("")
             </>
           );
         })}
+      </div>
       </div>
 
       <Box py={4} display="flex" justifyContent="center">

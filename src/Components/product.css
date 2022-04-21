@@ -1,21 +1,19 @@
 #img{
-  max-width: 150%;
-  max-height: 150%;
-  min-width: 300px;
-  min-height: 200px;
+
 }
 
 
 .container{
 
 	display: grid;
+  margin:0% 0% 0% 0%;
 	width:70%;
 	height:70%;
-	border: 1px solid black;
-	grid-template-columns: 20% 20% ;
-	gap: 180px;
+	border: 0px solid black;
+	grid-template-columns: 17% 17% 17%;
+	gap: 200px;
   
-  padding:0 0% 0% 30%;
+  padding:0% 0% 0% 5%;
 
  
 }
@@ -24,3 +22,4 @@
   height: 40px;
   margin-left:40%
 }
+

@@ -40,7 +40,7 @@
 	color:#ff7035
 }
 #img11{
-	height: 75%;
+	height: 90%;
 	width: 55%;
  
   border:0px solid black;
@@ -62,7 +62,7 @@
 .input > input{
 	border:0px solid black;
 	width:120%;
-	height: 60%;
+	height: 90%;
 	background-color:rgb(245, 245, 245);
 	font-size:16px;
 	padding:8px;
@@ -83,5 +83,5 @@ input:focus{
   border-radius: 20px;
 }
 .mt{
-	margin-top:8px;
+	margin-top:0px;
 }
