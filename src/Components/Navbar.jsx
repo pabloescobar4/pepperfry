@@ -18,6 +18,10 @@ const NavBar = () => {
 		
 	}
 
+	const done = () => {
+		alert("Congratulation your order is placed")
+	}
+
 	
 	const navigate = useNavigate()
 	function handleClick() {
@@ -25,6 +29,9 @@ const NavBar = () => {
 	  }
 	  function handleClickCart() {
 		navigate('/products')
+	  }
+	  function handleClicklogin() {
+		navigate('/cart')
 	  }
 	  const data = useSelector((state) => state.Cart.cart)
 	 
@@ -36,7 +43,28 @@ const NavBar = () => {
   
 
 	  const [showMenu,setShowMenu] = useState(false)
-      
+      const [login,setLogin] = useState(false)
+	  let m 
+	  if(login){
+		  m = <div>
+			  <div className="fixed bg-white top-24 p-2 right-20 w-25 h-30 z-50 shadow">
+			  <div className="ml-36">
+				  <ClearIcon onClick={()=>{setLogin(false)}} className="cursor-pointer"/>
+				  </div>
+             <div className= "h-1/2 w-full p-2 bg-blue-300 pl-5" onClick={()=>{setLogin(false)}}>
+				 <button onClick={() =>{handleClicklogin()}}> LOGIN/REGISTER</button>
+
+               
+			 </div>
+			 <div className="text-sm h-1/2 -1/2">
+			 To access your account 
+			 </div>
+			 <div className="text-sm">
+			 & manage orders
+			 </div>
+			  </div>
+		  </div>
+	  }
 	  let menu
     
 	  if(showMenu){
@@ -112,7 +140,7 @@ const NavBar = () => {
                  
 				  </div>
 
-				  <div className="p-4  text-2xl text-white rounded-xl ml-36">
+				  <div className="p-4  text-2xl text-white rounded-xl ml-36" onClick={() => {done()}}>
 					 Proceed to Pay
 				  </div>
 
@@ -163,7 +191,7 @@ const NavBar = () => {
 	   </div>
 	   <div className="mt -ml-3">
 	 
-	   <PersonSharpIcon fontSize="large" className="cursor-pointer"/>
+	   <PersonSharpIcon fontSize="large" className="cursor-pointer" onClick={()=>{setLogin(!login)}} />
 	   </div>
 	   <div className="mt cursor-pointer mr-3">
        <FavoriteBorderOutlinedIcon fontSize="large" />
@@ -222,6 +250,7 @@ Modular
 	</div>
 
 	{menu}
+	{m}
 	</>
    )
   }
