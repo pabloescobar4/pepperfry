@@ -101,6 +101,17 @@ const NavBar = () => {
 						 })}
 					 </div>
 			  </div>
+			  <div className="border bg-green-400 w-full h-16 fixed bottom-0 flex ">
+                  
+				  <div className=" p-4   text-2xl rounded-xl text-white">
+                  Total
+				  </div>
+
+				  <div className="p-4  text-2xl text-white rounded-xl ml-36">
+					 Proceed to Pay
+				  </div>
+
+			  </div>
 		  </div>
 	  }
 
