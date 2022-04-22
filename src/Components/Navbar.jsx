@@ -1,6 +1,6 @@
 import React ,{useState} from 'react'
 import {useNavigate } from 'react-router'
-import './Navbar.css'
+import '../Style/Navbar.css'
 import PersonSharpIcon from '@mui/icons-material/PersonSharp';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
@@ -21,14 +21,19 @@ const NavBar = () => {
 	
 	const navigate = useNavigate()
 	function handleClick() {
-		navigate('/home')
+		navigate('/')
 	  }
 	  function handleClickCart() {
 		navigate('/products')
 	  }
 	  const data = useSelector((state) => state.Cart.cart)
-	  console.log(data)
+	 
 
+	  const totalsum = () => {
+		  const sum = 0
+		  console.log(data.reduce((a,b) => a.price + b.price ,sum))
+	  }
+  
 
 	  const [showMenu,setShowMenu] = useState(false)
       
@@ -101,10 +106,10 @@ const NavBar = () => {
 						 })}
 					 </div>
 			  </div>
-			  <div className="border bg-green-400 w-full h-16 fixed bottom-0 flex ">
+			  <div className="border bg-blue-500 w-full h-16 fixed bottom-0 flex ">
                   
 				  <div className=" p-4   text-2xl rounded-xl text-white">
-                  Total
+                 
 				  </div>
 
 				  <div className="p-4  text-2xl text-white rounded-xl ml-36">
@@ -172,8 +177,48 @@ const NavBar = () => {
 	   </div>
 	</div>
 	
-	<div className="Navbar3">
-    
+	<div className="borde flex justify-start ml-16 text-sm font-semibold " onClick={()=>{handleClickCart()}}>
+    <div className="p-1 borde orange1 cursor-pointer">
+		Furniture
+	</div>
+	<div className="p-1 ml-5 orange1">
+	Sofas & Recliners
+
+	</div>
+	<div className="p-1 ml-5 orange1">
+	Storage
+
+	</div>
+	<div className="p-1 ml-5 orange1">
+	Beds
+
+	</div>
+	<div className="p-1 ml-5 orange1">
+	Mattresses
+
+	</div>
+	<div className="p-1 ml-5 orange1">
+	Furnishings
+
+	</div>
+	<div className="p-1 ml-5 orange1">
+		 
+Decor
+
+	</div>
+	<div className="p-1 ml-5 orange1">
+	Lighting
+
+	</div>
+	<div className="p-1 ml-5 orange1">
+		 
+Appliances
+
+	</div >
+	<div className="p-1 ml-5 orange1">
+		 
+Modular
+	</div>
 	</div>
 
 	{menu}

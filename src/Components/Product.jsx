@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import React from 'react';
-import './product.css';
+import '../Style/product.css';
 import axios from 'axios';
 import { useSelector, useDispatch } from 'react-redux';
 import { storeData } from '../redux/storeData/action';
@@ -176,8 +176,13 @@ const navigate = useNavigate()
                   <div >
                     <img src={a.img[0]} alt="" id="img" />
                   </div>
-                  <div className="bg-green-300 w-2/5 text-white">
-                  <Button onClick={() => {Send(a)}}  >Add to Cart</Button>
+                  <div className="b  w-2/5 text-white">
+                    <div>
+                      <button className="bg-blue-500 shadow-lg rounded-2xl p-2 hover:bg-blue-600 shadow-blue-500/50  " onClick={() => {Send(a)}} >
+                        Add to cart
+                      </button>
+                    </div>
+          
                   </div>
                   
                   <div className=" mt-1 mb-2  ">
