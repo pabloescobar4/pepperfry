@@ -55,8 +55,9 @@ const navigate = useNavigate()
 
 
   const Send = (e) => {
+   // console.log(e)
   dispatch(addCart(e))
-  console.log(e)
+  
   }
   const sortBylow =(m) => {
     if(m==="l"){
@@ -145,7 +146,7 @@ const navigate = useNavigate()
     </Box>
        </div>
       
-      <div className="container ">
+      <div className="container " >
     
    
         {data
@@ -170,7 +171,7 @@ const navigate = useNavigate()
         .map((a) => {
           return (
             <>
-              <div className="borde w-80 ">
+              <div className="borde w-80 " key={a.id}>
                 <div className="   h-full ">
                   <div >
                     <img src={a.img[0]} alt="" id="img" />

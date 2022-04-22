@@ -6,7 +6,19 @@ import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlin
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { useSelector } from 'react-redux';
 import ClearIcon from '@mui/icons-material/Clear';
+import {removeCart} from '../redux/Cart/action'
+import {useDispatch} from 'react-redux'
 const NavBar = () => {
+
+	const dispatch = useDispatch();
+
+	const remove = (id) => {
+		console.log(id.id)
+		dispatch(removeCart(id))
+		
+	}
+
+	
 	const navigate = useNavigate()
 	function handleClick() {
 		navigate('/home')
@@ -16,10 +28,12 @@ const NavBar = () => {
 	  }
 	  const data = useSelector((state) => state.Cart.cart)
 	  console.log(data)
+
+
 	  const [showMenu,setShowMenu] = useState(false)
-
+      
 	  let menu
-
+    
 	  if(showMenu){
 		  menu = 
 		  <div className="fixed bg-white top-0 right-0 w-1/3 h-full z-50 shadow">
@@ -62,8 +76,13 @@ const NavBar = () => {
 
 
 								 
-								 
+								 <div>
 								 Quantity
+								 </div>
+								 <div>
+									 <button className="bg-black text-white p-1 rounded-xl mt-3 " onClick={() => remove(item.id)}>Remove</button>
+								 </div>
+								
 								 </div>
 								 <div>
 								   
