@@ -14,18 +14,7 @@
                 "total_savings": "71,000 (38% Off)",
                 "category":"sofas",
                 "price": 113999,
-                "seater": 3,
-                "details":{
-                    "brand": "CasaCraft",
-                    "dimensions": "H 35 x W 83 x D 38; Seating Height -18 (All dimension in inches)",
-                    "weight": "64 KG",
-                    "warranty": "36 Months' Warranty",
-                    "assembly": "Carpenter Assembly",
-                    "primary material": "Half Leather",
-                    "room type": "Living Room",
-                    "seating height": 18,
-                    "overview": "Casacraft offers the best in comfort with elan. The collections are a series of modern trendy designs, simple yet striking and represent the ideals of minimalism. The designs are a perfect blend of functionality and exceptional aesthetics. Each piece is crafted with passion and follows international standards on quality and style. Contemporary Style Sofas are very current and in trend. Its a very fluid, simplistic style which takes its cues from the in-vogue polishes, textures and colours of the season and is bereft of any ornamentation or embellishments. In this style you can see nods to modern, traditional, art deco and even futuristic design."
-                }
+                "seater": 3
             },
             {
                 "id": 2,
@@ -40,18 +29,7 @@
                 "total_savings": "18,000 (38% Off)",
                 "category":"sofas",
                 "price": 28999,
-                "seater": 2,
-                "details":{
-                    "brand": "CasaCraft",
-                    "dimensions": "H 34.5 x W 48 x D 31; Seating Height-18.5 (All Dimension in Inches)",
-                    "weight": "26.95 KG",
-                    "warranty": "36 Months' Warranty",
-                    "assembly": "No Assembly Required",
-                    "primary material": "Fabric",
-                    "room type": "Living Room",
-                    "seating height": 19,
-                    "overview": "Casacraft offers the best in comfort with elan. The collections are a series of modern trendy designs, simple yet striking and represent the ideals of minimalism. The designs are a perfect blend of functionality and exceptional aesthetics. Each piece is crafted with passion and follows international standards on quality and style. Contemporary Style Sofas are very current and in trend. Its a very fluid, simplistic style which takes its cues from the in-vogue polishes, textures and colours of the season and is bereft of any ornamentation or embellishments. In this style you can see nods to modern, traditional, art deco and even futuristic design."
-                }
+                "seater": 2
             },
             {
                 "id": 3,
@@ -66,18 +44,7 @@
                 "total_savings": "32,000 (39% Off)",
                 "price": 49999,
                 "category":"sofas",
-                "seater": 3,
-                "details":{
-                    "brand": "Woodsworth",
-                    "dimensions": " H 35.5 x W 80 x D 35.5; Seating Height-18; Seating Depth - 22.5 (all dimensions in inches)",
-                    "weight": "54 KG",
-                    "warranty": "36 Months' Warranty",
-                    "assembly": "Carpenter Assembly",
-                    "primary material": "Fabric",
-                    "room type": "Living Room",
-                    "seating height": 18,
-                    "overview": "Woodsworth is our premium homegrown label thats part classic, part contemporary. A delectable amalgamation of the timeless and trendy, a precarious balance of function and flair. Woodsworth is a harmonious fit for all tastes, styles and spaces. This type is attributed to Thomas W. Lawson, an American businessman and author who commissioned the model for extra comfort. You can recognize a Lawson by three back cushions and arms lower than the back (slightly rolled or square). You can find textile and leather finishes and various embedded materials, including metal and wood. Furniture bought on Pepperfry.com comes with a 3 Year Warranty against any manufacturing defects. So go ahead and buy with confidence."
-                }
+                "seater": 3
             },
             {
                 "id": 4,
@@ -92,18 +59,7 @@
                 "total_savings": "32,000 (37% Off)",
                 "price": 53999,
                 "category":"sofas",
-                "seater": 3,
-                "details":{
-                    "brand": "CasaCraft",
-                    "dimensions": "H 31 x W 80 x D 31; Seating Height -17 (all dimensions in inches)",
-                    "weight": "48 KG",
-                    "warranty": "36 Months' Warranty",
-                    "assembly": "Carpenter Assembly",
-                    "primary material": "Fabric",
-                    "room type": "Living Room",
-                    "seating height": 17,
-                    "overview": "Woodsworth is our premium homegrown label thats part classic, part contemporary. A delectable amalgamation of the timeless and trendy, a precarious balance of function and flair. Woodsworth is a harmonious fit for all tastes, styles and spaces. This type is attributed to Thomas W. Lawson, an American businessman and author who commissioned the model for extra comfort. You can recognize a Lawson by three back cushions and arms lower than the back (slightly rolled or square). You can find textile and leather finishes and various embedded materials, including metal and wood. Furniture bought on Pepperfry.com comes with a 3 Year Warranty against any manufacturing defects. So go ahead and buy with confidence."
-                }
+                "seater": 3
             },
             {
                 "id": 5,
@@ -118,18 +74,7 @@
                 "total_savings": "17,000 (39% Off)",
                 "price": 26999,
                 "category":"sofas",
-                "seater": 2,
-                "details":{
-                    "brand": "CasaCraft",
-                    "dimensions": "H 34 x W 54 x D 32.5; Seating Height-17 ; Seating Depth : 21 (all dimensions in inches)",
-                    "weight": "38 KG",
-                    "warranty": "36 Months' Warranty",
-                    "assembly": "Carpenter Assembly",
-                    "primary material": "Fabric",
-                    "room type": "Living Room",
-                    "seating height": 17,
-                    "overview": "Casacraft offers the best in comfort with elan. The collections are a series of modern trendy designs, simple yet striking and represent the ideals of minimalism. The designs are a perfect blend of functionality and exceptional aesthetics. Each piece is crafted with passion and follows international standards on quality and style. This type is attributed to Thomas W. Lawson, an American businessman and author who commissioned the model for extra comfort. You can recognize a Lawson by three back cushions and arms lower than the back (slightly rolled or square). You can find textile and leather finishes and various embedded materials, including metal and wood."
-                }
+                "seater": 2
             },
             {
                 "id": 6,
@@ -144,18 +89,7 @@
                 "total_savings": "32,000 (37% Off)",
                 "price": 53999,
                 "category":"sofas",
-                "seater": 3,
-                "details":{
-                    "brand": "CasaCraft",
-                    "dimensions": "H 31 x W 80 x D 31; Seating Height -17 (all dimensions in inches)",
-                    "weight": "48 KG",
-                    "warranty": "36 Months' Warranty",
-                    "assembly": "Carpenter Assembly",
-                    "primary material": "Fabric",
-                    "room type": "Living Room",
-                    "seating height": 17,
-                    "overview": "Casacraft offers the best in comfort with elan. The collections are a series of modern trendy designs, simple yet striking and represent the ideals of minimalism. The designs are a perfect blend of functionality and exceptional aesthetics. Each piece is crafted with passion and follows international standards on quality and style. Contemporary Style Sofas are very current and in trend. Its a very fluid, simplistic style which takes its cues from the in-vogue polishes, textures and colours of the season and is bereft of any ornamentation or embellishments. In this style you can see nods to modern, traditional, art deco and even futuristic design."
-                }
+                "seater": 3
             },
             {
                 "id": 7,
@@ -170,18 +104,7 @@
                 "total_savings": "38,000 (44% Off)",
                 "price": 47999,
                 "category":"sofas",
-                "seater": 2,
-                "details":{
-                    "brand": "CasaCraft",
-                    "dimensions": "H 35 x W 55 x D 30: Seating Height :17.5 (all dimensions in inches)",
-                    "weight": "34 KG",
-                    "warranty": "36 Months' Warranty",
-                    "assembly": "Carpenter Assembly",
-                    "primary material": "Velvet Fabric",
-                    "room type": "Living Room",
-                    "seating height": 17.5,
-                    "overview": "Casacraft offers the best in comfort with Elan. The collections are a series of modern trendy designs, simple yet striking and represent the ideals of minimalism. The designs are a perfect blend of functionality and exceptional aesthetics. Each piece is crafted with passion and follows international standards on quality and style. Bucket Style Sofas have rounded or contoured back. The earliest bucket sofas had high sides and were named for their resemblance to buckets."
-                }
+                "seater": 2
             },
             
                 {
@@ -197,18 +120,7 @@
                     "total_savings": "18,000 (55% Off)",
                     "price": 14999,
                     "category":"Settee",
-                    "seater": 0,
-                    "details":{
-                        "brand": "Bohemiana",
-                        "dimensions": " H 22 X W 41.5 X D 20 (All Dimension Are In Inches)",
-                        "weight": "9.2 KG",
-                        "warranty": "36 Months' Warranty",
-                        "assembly": "Carpenter Assembly",
-                        "primary material": "Metal",
-                        "room type": "Living Room",
-                        "seating height": 17,
-                        "overview": "Bohemiana is rhapsody for your home. Heres to the misfits and the rebels, the rule-breakers, the square pegs in the round holes, the ones who see things differently. Bohemiana is a collection thats just as unique as you. Channel your inner bohemian self with a furniture line thats part industrial, part distressed and 100% avant garde. A Settee is a small sofa with two arms and a back. It usually seats two and is more upright and slenderer than a typical sofa. A settee can easily look at home in an entryway, in a bedroom or even pulled up to the dining table, thanks to its elegant proportions and upright posture. Furniture bought on Pepperfry.com comes with a 3 Year Warranty against any manufacturing defects. So go ahead and buy with confidence."
-                    }
+                    "seater": 0
                 },
                 {
                     "id": 12,
@@ -223,18 +135,7 @@
                     "total_savings": "17,500 (50% Off)",
                     "price": 17499,
                     "category":"Settee",
-                    "seater": 0,
-                    "details":{
-                        "brand": "Bohemiana",
-                        "dimensions": "H 28 X W 40 X D 18 (All Dimension Are In Inches)",
-                        "weight": "10.4 KG",
-                        "warranty": "36 Months' Warranty",
-                        "assembly": "Carpenter Assembly",
-                        "primary material": "Mango Wood",
-                        "room type": "Living Room",
-                        "seating height": 16.75,
-                        "overview": "Bohemiana is rhapsody for your home. Heres to the misfits and the rebels, the rule-breakers, the square pegs in the round holes, the ones who see things differently. Bohemiana is a collection thats just as unique as you. Channel your inner bohemian self with a furniture line thats part industrial, part distressed and 100% avant garde. A Settee is a small sofa with two arms and a back. It usually seats two and is more upright and slenderer than a typical sofa. A settee can easily look at home in an entryway, in a bedroom or even pulled up to the dining table, thanks to its elegant proportions and upright posture. Furniture bought on Pepperfry.com comes with a 3 Year Warranty against any manufacturing defects. So go ahead and buy with confidence."
-                    }
+                    "seater": 0
                 },
                 {
                     "id": 13,
@@ -249,18 +150,7 @@
                     "total_savings": "5,000 (14% Off)",
                     "price": 29999,
                     "category":"Settee",
-                    "seater": 0,
-                    "details":{
-                        "brand": "Bohemiana",
-                        "dimensions": "H 33 x W 40 x D 21 (all dimensions in inches)",
-                        "weight": "28 KG",
-                        "warranty": "36 Months' Warranty",
-                        "assembly": "Carpenter Assembly",
-                        "primary material": "Mango Wood",
-                        "room type": "Living Room",
-                        "seating height": 18,
-                        "overview": "Bohemiana is rhapsody for your home. Heres to the misfits and the rebels, the rule-breakers, the square pegs in the round holes, the ones who see things differently. Bohemiana is a collection thats just as unique as you. Channel your inner bohemian self with a furniture line thats part industrial, part distressed and 100% avant garde. A Settee is a small sofa with two arms and a back. It usually seats two and is more upright and slenderer than a typical sofa. A settee can easily look at home in an entryway, in a bedroom or even pulled up to the dining table, thanks to its elegant proportions and upright posture. Furniture bought on Pepperfry.com comes with a 3 Year Warranty against any manufacturing defects. So go ahead and buy with confidence."
-                    }
+                    "seater": 0
                 },
                 {
                     "id": 14,
@@ -274,18 +164,7 @@
                     "actual_price": "33,040",
                     "total_savings": " 9,441 (29% Off)",
                     "price": 23599,
-                    "seater": 0,
-                    "details":{
-                        "brand": "Stories",
-                        "dimensions": "H 33 x W 63 D x 24 ;Seating Height:17(All Dimensions are in inches)",
-                        "weight": "15 KG",
-                        "warranty": "36 Months' Warranty",
-                        "assembly": "Carpenter Assembly",
-                        "primary material": "Solid Wood",
-                        "room type": "Living Room",
-                        "seating height": 17,
-                        "overview": "StoriesHomes Global Concepts or in short Stories has become peoples favourite brand when it comes to furniture & home decor products.Stories Home is a part of Bronet Group that is one of the trusted names in Dubai, UAE always believe in bringing the largest choice & variety of furniture & home decor products, under one roof. A Settee is a small sofa with two arms and a back. It usually seats two and is more upright and slenderer than a typical sofa. A settee can easily look at home in an entryway, in a bedroom or even pulled up to the dining table, thanks to its elegant proportions and upright posture."
-                    }
+                    "seater": 0
                 },
                 {
                     "id": 15,
@@ -300,18 +179,7 @@
                     "total_savings": "5,000 (23% Off)",
                     "category":"Settee",
                     "price": 16900,
-                    "seater": 0,
-                    "details":{
-                        "brand": "Stories",
-                        "dimensions": "H 34 x W 46 x D 19; Seating Height : 18(all dimensions are in inches)",
-                        "weight": "10 KG",
-                        "warranty": "36 Months' Warranty",
-                        "assembly": "No Assembly Required",
-                        "primary material": "Teak Wood",
-                        "room type": "Living Room",
-                        "seating height": 18,
-                        "overview": "StoriesHomes Global Concepts or in short Stories has become peoples favourite brand when it comes to furniture & home decor products.Stories Home is a part of Bronet Group that is one of the trusted names in Dubai, UAE always believe in bringing the largest choice & variety of furniture & home decor products, under one roof. A Settee is a small sofa with two arms and a back. It usually seats two and is more upright and slenderer than a typical sofa. A settee can easily look at home in an entryway, in a bedroom or even pulled up to the dining table, thanks to its elegant proportions and upright posture."
-                    }
+                    "seater": 0
                 },
             
                 {
@@ -327,18 +195,7 @@
                     "total_savings": "5,075 (35% Off)",
                     "price": 9425,
                     "category":"Chair",
-                    "seater": 0,
-                    "details":{
-                        "brand": "Durian",
-                        "dimensions": "H Max 51.8 Min 47.8 x W 26 x D 19.3; Seating Height Max 22 Min 18.1 (all dimension in inches)",
-                        "weight": "16 KG",
-                        "warranty": "5 Years' Warranty",
-                        "assembly": "Carpenter Assembly",
-                        "primary material": "Breathable Mesh",
-                        "room type": "Study Room",
-                        "seating height": "Max 22 Min 18.1",
-                        "overview": "Durian is the industries foremost brand, creating beautiful spaces for you within your homes and offices since 1985. With a successful start by importing our furniture we now have 9 factories that manufactures furniture such as Sofas, Beds, Tables, Dining sets and Office Desks & Chairs. We are humbled to have touched the lives of millions of people with our range of world class home and office furniture, innovative laminates, sturdy designer doors, exquisite veneers and top-grade plywood. An Ergonomic Chair is designed for comfort, to provide lumbar support, they have 360 Degree swivel bases and seat height adjustment levers. They are complete multitask chairs offering effortless mobility. They come in three size variants Low Back [Less than 14 Inches], Medium Back [14 to 22 Inches] and High Back [Above 22 Inches]."
-                    }
+                    "seater": 0
                 },
                 {
                     "id": 22,
@@ -352,18 +209,7 @@
                     "actual_price": "16,999",
                     "total_savings": "2,700 (16% Off)",
                     "price": 14299,
-                    "seater": 0,
-                    "details":{
-                        "brand": "Adiko Systems",
-                        "dimensions": "H 46 x W 27.5 x D 19; Seating height 17(all dimensions are in inches)",
-                        "weight": "20 KG",
-                        "warranty": "12 Months' Warranty",
-                        "assembly": "Carpenter Assembly",
-                        "primary material": "Leatherette",
-                        "room type": "Office Furniture",
-                        "seating height": 17,
-                        "overview": "Adiko Systems, founded in the year 2007, are the manufacturers of entire range of Executive chairs, Office chairs and Cafeteria chairs. With its commitment to quality, innovation and unswerving determination, it has grown in stature and size in such a short span of time. An Executive Chair is the Big Boss's Ergonomic plush, ultra-luxe, high back chair preferably with a headrest. The Chair offers superior lumbar support, 360-degree swivel options for effortless mobility and pneumatic height adjustments. Some of them have waterfall front seat edges to ease the pressure from the lower legs and considerably improve circulation. Pepperfry's home office chairs are everything you need to get the job done. We believe that comfort and utility will allow hours of productivity and your work from home office furniture should look just as stylish as the rest of your home."
-                    }
+                    "seater": 0
                 },
                 {
                     "id": 23,
@@ -378,18 +224,7 @@
                     "total_savings": "3,000 (27% Off)",
                     "category":"Chair",
                     "price": 7999,
-                    "seater": 0,
-                    "details":{
-                        "brand": "Star India",
-                        "dimensions": "H 32 x W 25 x D 21; Seating Height-18 (all dimensions in inches)",
-                        "weight": "5 KG",
-                        "warranty": "12 Months' Warranty",
-                        "assembly": "Carpenter Assembly",
-                        "primary material": "Fabric",
-                        "room type": "Living Room",
-                        "seating height": 18,
-                        "overview": "Star India specializes in offering the latest and in trend furniture designs at very affordable prices with great selection in modern furniture designs and display. Iconic Chairs are popular, arch-typical trademark chairs, having a certain character, status and legacy. These are Eames Iconic Replicas, contoured to fit a person and come with either arms that are an extension of the seat or sleek and armless also having typical wooden splayed legs. These chairs represent the playful functionality of Mid-Century American design."
-                    }
+                    "seater": 0
                 },
                 {
                     "id": 24,
@@ -404,18 +239,7 @@
                     "total_savings": "4,765 (42% Off)",
                     "price": 6499,
                     "category":"Chair",
-                    "seater": 0,
-                    "details":{
-                        "brand": "Furniease",
-                        "dimensions": "H 37 x W 20 x D 20; Seating Height: 18 (All Dimensions in Inches)",
-                        "weight": "10 KG",
-                        "warranty": "6 Months' Warranty",
-                        "assembly": "Carpenter Assembly",
-                        "primary material": "Leatherette",
-                        "room type": "Office Furniture",
-                        "seating height": 18,
-                        "overview": "Furniease was established to make your seating hours comfortable. The four key factors we identified that a person looks for while buying a chair are Comfort, Support, Design and Durability. An Executive Chair is the Big Boss's Ergonomic plush, ultra-luxe, high back chair preferably with a headrest. The Chair offers superior lumbar support, 360-degree swivel options for effortless mobility and pneumatic height adjustments. Some of them have waterfall front seat edges to ease the pressure from the lower legs and considerably improve circulation. Pepperfry's home office chairs are everything you need to get the job done. We believe that comfort and utility will allow hours of productivity and your work from home office furniture should look just as stylish as the rest of your home."
-                    }
+                    "seater": 0
                 },
                 {
                     "id": 25,
@@ -430,18 +254,7 @@
                     "total_savings": "14,700 (16% Off)",
                     "price": 77999,
                     "category":"Armchair",
-                    "seater": 0,
-                    "details":{
-                        "brand": "JILDA",
-                        "dimensions": "H 33 x W 25 x D 27; Seating Height:17 (all dimensions are in inches)",
-                        "weight": "15 KG",
-                        "warranty": "12 Months' Warranty",
-                        "assembly": "Self Assembly",
-                        "primary material": "Rubber Wood",
-                        "room type": "Living Room",
-                        "seating height": 17,
-                        "overview": "Modern Furniture reflects the design philosophy of form following function prevalent in modernism. These designs represent the ideals of cutting excess, practicality and an absence of decoration. The forms of furniture are visually light (like in the use of polished metal and engineered wood) and follow minimalist principles of design which are influenced by architectural concepts like the cantilever. Modern furniture fits best in open floor plans with clean lines that thrive in the absence of clutter. Every 5 minutes, an item of Furniture sells on Pepperfry.com."
-                    }
+                    "seater": 0
                 },
                 {
                     "id": 26,
@@ -456,18 +269,7 @@
                     "total_savings": "12,000 (32% Off)",
                     "price": 24999,
                     "category":"Armchair",
-                    "seater": 0,
-                    "details":{
-                        "brand": "Bohemiana",
-                        "dimensions": "H 37 x W 25 x D 23; Seating Height - 16 (all dimensions in inches)",
-                        "weight": "10.5 KG",
-                        "warranty": "36 Months' Warranty",
-                        "assembly": "No Assembly Required",
-                        "primary material": "Fabric",
-                        "room type": "Living Room",
-                        "seating height": 16,
-                        "overview": "Bohemiana is rhapsody for your home. Heres to the misfits and the rebels, the rule-breakers, the square pegs in the round holes, the ones who see things differently. Bohemiana is a collection thats just as unique as you. Channel your inner bohemian self with a furniture line thats part industrial, part distressed and 100% avant garde. Armchairs as the name suggests, comes with arms and a straight upright back. They can either be minimalist as in the bare wooden ones or the upholstered ones. Furniture bought on Pepperfry.com comes with a 3 Year Warranty against any manufacturing defects. So go ahead and buy with confidence."
-                    }
+                    "seater": 0
                 },
                 {
                     "id": 27,
@@ -482,18 +284,7 @@
                     "total_savings": "11,500 (33% Off)",
                     "price": 23499,
                     "category":"Armchair",
-                    "seater": 0,
-                    "details":{
-                        "brand": "Amberville",
-                        "dimensions": "H 42 x W 24 x D 24; Seating Height - 18 (all dimensions in inches)",
-                        "weight": "21.1 KG",
-                        "warranty": "36 Months' Warranty",
-                        "assembly": "No Assembly Required",
-                        "primary material": "Sheesham Wood",
-                        "room type": "Living Room",
-                        "seating height": 18,
-                        "overview": "Reminiscent of yesteryears, Amberville serenades you to discover a distinctive elegance in homes through a seamless blend of classic and colonial styles. Curated for connoisseurs of fine furniture, the range exudes inimitable facets and impeccable craftsmanship that are second to none. Armchairs as the name suggests, comes with arms and a straight upright back. They can either be minimalist as in the bare wooden ones or the upholstered ones. Furniture bought on Pepperfry.com comes with a 3 Year Warranty against any manufacturing defects. So go ahead and buy with confidence."
-                    }
+                    "seater": 0
                 },
                 {
                     "id": 40,
@@ -505,18 +296,7 @@
                     "total_savings": "₹ 12,000 (14% Off)",
                     "price": 71999,
                     "category":"Table",
-                    "seater": 0,
-                    "details":{
-                        "brand": "Bohemiana",
-                        "dimensions": "H 18 x W 53 x D 28 (all dimensions in inches)",
-                        "weight": "55 KG",
-                        "warranty": "36 Months' Warranty",
-                        "assembly": "No Assembly Required",
-                        "primary material": "Mango Wood",
-                        "room type": "Living Room",
-                        "top material": "Solid Wood",
-                        "overview": "Bohemiana is rhapsody for your home. Heres to the misfits and the rebels, the rule-breakers, the square pegs in the round holes, the ones who see things differently. Bohemiana is a collection thats just as unique as you. Channel your inner bohemian self with a furniture line thats part industrial, part distressed and 100% avant garde.Industrial Style depicts a raw, unfinished, earthy and elemental look. As the name implies, it draws inspiration from warehouses and urban lofts its a style which celebrates contrasts. Its coming together of opposing materials to create a cohesive format. Its a fusion of old with the new, the bold with muted colours, the shiny with distressed finish, the knotty with the even tones, the solids with the patterned fabrics, or the functional with the outlandish.Coffee Tables are low tables used in living room spaces placed in the centre of seating furniture. Used for drinks, flowers, and is a general table for placing items.Furniture bought on Pepperfry.com comes with a 3 Year Warranty against any manufacturing defects. So go ahead and buy with confidence."
-                    }
+                    "seater": 0
                 },
                 {
                     "id": 41,
@@ -528,18 +308,7 @@
                     "total_savings": "₹ 3,876 (49% Off)",
                     "category":"Table",
                     "price": 3999,
-                    "seater": 0,
-                    "details":{
-                        "brand": "Wood You",
-                        "dimensions": "H 18.5 x W 35.4 x D 17.5 (all dimension in inches)",
-                        "weight": "15.35 KG",
-                        "warranty": "12 Months' Warranty",
-                        "assembly": "Carpenter Assembly",
-                        "primary material": "Engineered Wood",
-                        "room type": "Living Room",
-                        "top material": "Engineered Wood",
-                        "overview": "At Wood You Furniture, we strive to provide our guests with quality wood furniture that can be finished beautifully in your personal preference of wood stains and endless color choices, enhancing your home with your own unique style. Our great secret is offering well manufactured, real wood furniture with custom colors, elite and knowledgeable customer service and all at a great value."
-                    }
+                    "seater": 0
                 },
                 {
                     
@@ -552,18 +321,7 @@
                     "total_savings": "₹ 2,343 (31% Off)",
                     "category":"Table",
                     "price": 5157,
-                    "seater": 0,
-                    "details":{
-                        "brand": "A GLOBIA CREATIONS",
-                        "dimensions": "H 14.5 x W35.4 x D 19.6(All Dimensions are in inches)",
-                        "weight": "18 KG",
-                        "warranty": "36 Months' Warranty",
-                        "assembly": "Carpenter Assembly",
-                        "primary material": "Engineered Wood",
-                        "room type": "Living Room",
-                        "top material": "Engineered Wood",
-                        "overview": "A-Globia, an interior design, furniture and decor studio is a workshop of masterful designers, artisans and administrators who together form a collective of highly knowledgeable and experienced art-connoisseurs which creates and delivers one-of-a-kind, classy and exquisite designs that are infused with contemporary inspirations and the latest in architectural technology.Contemporary is very current and in trend, of the here and now. Its a very fluid, simplistic style which takes its cues from the in-vogue polishes, textures and colors of the season and is bereft of any ornamentation or embellishments.Coffee Tables are low tables used in living room spaces placed in the centre of seating furniture. Used for drinks, flowers, and is a general table for placing items."
-                    }
+                    "seater": 0
                 },
                 {
                     "id": 43,
@@ -574,17 +332,7 @@
                     "actual_price": "₹ 1,999 MRP",
                     "total_savings": " ₹ 150 (8% Off)",
                     "category":"Table",
-                    "price": 1849,
-                    "details":{
-                        "brand": "Gizga Essentials",
-                        "dimensions": "H 11 x W 23.6 x D 15.7 (All dimensions are in Inches)",
-                        "weight": "1.8 KG",
-                        "warranty": "12 Months' Warranty",
-                        "assembly": "No Assembly Required",
-                        "primary material": "Engineered Wood",
-                        "room type": "Living Room",
-                        "overview": "Gizga Essentials team of visionaries believes with an aim to provide luxury laptop accessories like laptop tablex at value prices & best quality to customers.Portable Table is a compact, foldable, handy, multipurpose table that can easily set the desk over your lap while you sit either on a bed or on a chair."
-                    }
+                    "price": 1849
                 },
                 {
                     "id": 44,
@@ -596,17 +344,7 @@
                     "total_savings": "Shopping Spreedom Sale",
                     "price": 10379,
                     "category":"Table",
-                    "seater": 0,
-                    "details":{
-                        "brand": "Ventura",
-                        "dimensions": "H 25 x W 24 x D 24 (all dimensions in inches)",
-                        "weight": "15 KG",
-                        "warranty": "12 Months' Warranty",
-                        "assembly": "No Assembly Required",
-                        "primary material": "Wicker/Rattan",
-                        "room type": "Outdoor Furniture",
-                        "overview": "Ventura Lifestyles Pvt. Ltd. is an acclaimed company in the furniture industry with a PAN India presence offering a complete range of Home & Office furniture along with solutions for laboratories, Hospitals & Healthcare establishment, Education & Training Institutes, Auditorium & Stadiums.Patio Table Sets are table and chair sets meant to be placed outdoors, they come in a variety of materials. They are hardworking furniture pieces which are durable and will go a long way in making your patio spaces an inviting alternate second living space."
-                    }
+                    "seater": 0
                 },
                 {
                     "id": 45,
@@ -617,17 +355,7 @@
                     "actual_price": "₹ 44,999 MRP",
                     "total_savings": "₹ 15,000 (33% Off)",
                     "price": 29999,
-                    "category":"Table",
-                    "details":{
-                        "brand": "Amberville",
-                        "dimensions": "H 62 x W 42 x D 16 (all dimensions in inches)",
-                        "weight": "40 KG",
-                        "warranty": "36 Months' Warranty",
-                        "assembly": "Carpenter Assembly",
-                        "primary material": "Sheesham Wood",
-                        "room type": "Bedroom",
-                        "overview": "Colonial Style Furniture is graceful and refined, often characterized by the use of turnings, curved legs and motifs to present an elegant appearance. Colonial Style Furniture on Pepperfry sees Indian craftsmen interpreting European period styles (such as the Queen Anne and Georgian styles) in indigenous woods like Sheesham and Mango.Every 5 minutes, an item of Furniture sells on Pepperfry.com.Furniture bought on Pepperfry.com comes with a 3 Year Warranty against any manufacturing defects. So go ahead and buy with confidence."
-                    }
+                    "category":"Table"
                 },
                 {
                     "id": 46,
@@ -638,17 +366,7 @@
                     "actual_price": "₹ 10,131 MRP",
                     "total_savings": "₹ 632 (6% Off)",
                     "category":"Table",
-                    "price": 9499,
-                    "details":{
-                        "brand": "Spacewood",
-                        "dimensions": "H 68.9 x W 29.5 x D 16.5 (all dimensions in inches)",
-                        "weight": "50 KG",
-                        "warranty": "36 Months' Warranty",
-                        "assembly": "Carpenter Assembly",
-                        "primary material": "Engineered Wood",
-                        "room type": "Bedroom",
-                        "overview": "Kosmo furniture offers a wide range of furniture that is strong, durable and tough. It comes from the house of Spacewood, which is Indias largest furniture manufacturer. These products are made from melamine and membrane finish technology with an Iso: 9001, 18001, 14001 approved quality standards. All our products go through stringent quality checks to provide you the best of best at the most durable prices.A Dressing Unit is a piece of furniture that combines vanity storage and dressing mirror in one unit."
-                    }
+                    "price": 9499
                 },
             
     
@@ -662,18 +380,7 @@
                     "actual_price": "₹ 35,399 MRP",
                     "total_savings": "₹ 23,900 (68% Off)",
                     "price": 11499,
-                    "seater": 0,
-                    "details":{
-                        "brand": "Mintwud",
-                        "dimensions": "Height- 31.4, Width- 42.5, Depth- 14.7(All Dimensions are in inches)",
-                        "weight": "10 KG",
-                        "warranty": "12 Months' Warranty",
-                        "assembly": "Carpenter Assembly",
-                        "primary material": "Engineered Wood",
-                        "room type": "Living Room",
-                        "seating height": 30,
-                        "overview": "Mintwud is a classic amalgamation of form and function. Crafted for compact homes, the range is clean and convenient and has an understated design aesthetic that adapts to any space.Modern is a distinct, defined style which originated in the early 1900s. It uses a combination of vinyl, steel, plastic, glass or wood having monochromatic colours and sleek silhouettes. Modern furniture lives at the intersection of clean lines and relaxed comfort accentuating form and function.Shoe Cabinets are closed shoe cupboards with shutters having multiple shelf space inside to neatly place your shoes."
-                    }
+                    "seater": 0
                 },
                 {
                     "id": 48,
@@ -683,17 +390,7 @@
                     "offer_price": "₹ 28,999",
                     "actual_price": "₹ 48,999 MRP",
                     "total_savings": "₹ 20,000 (41% Off)",
-                    "price": 28900,
-                    "details":{
-                        "brand": "Woodsworth",
-                        "dimensions": "H 22 x W 57 x D 16 (all dimensions in inches)",
-                        "weight": "52.5 KG",
-                        "warranty": "36 Months' Warranty",
-                        "assembly": "No Assembly Required",
-                        "primary material": "Sheesham Wood",
-                        "room type": "Living Room",
-                        "overview": "Woodsworth is our premium homegrown label thats part classic, part contemporary. A delectable amalgamation of the timeless and trendy, a precarious balance of function and flair. Woodsworth is a harmonious fit for all tastes, styles and spaces.A TV shelf is a combination of an open media stand with display shelf. House your media components and other decorative items openly in these living room essentials.Furniture bought on Pepperfry.com comes with a 3 Year Warranty against any manufacturing defects. So go ahead and buy with confidence."
-                    }
+                    "price": 28900
                 },
                 {
                     "id": 49,
@@ -703,17 +400,7 @@
                     "offer_price": "₹ 39,999",
                     "actual_price": "₹ 66,999 MRP",
                     "total_savings": "₹ 27,000 (40% Off)",
-                    "price": 39999,
-                    "details":{
-                        "brand": "Amberville",
-                        "dimensions": "H 32 x W 58 x D 17 (all dimensions in inches)",
-                        "weight": "52 KG",
-                        "warranty": "36 Months' Warranty",
-                        "assembly": "No Assembly Required",
-                        "primary material": "Sheesham Wood",
-                        "room type": "Living Room",
-                        "overview": "Reminiscent of yesteryears, Amberville serenades you to discover a distinctive elegance in homes through a seamless blend of classic and colonial styles. Curated for connoisseurs of fine furniture, the range exudes inimitable facets and impeccable craftsmanship that are second to none.Traditional Style takes inspiration from indigenous arts and craft originating from the Indian sub-continent and certain style periods pertaining to the early Baroque and French eras. Traditional furniture is synonymous with artistic embellishments, contrasting inlays, plush fabrics, decorative trims, crown moldings and intricate details.Sideboards are an extended storage cabinets generally waist high and are used in the dining area to store your crockery. Some sideboards reach all the way to the floor or some come with short legs or a base and some come with drawers to store away napkins and cutlery. Sideboards also double up as buffet tables when you are having parties and come real handy when serving."
-                    }
+                    "price": 39999
                 },
                 {
                     "id": 50,
@@ -723,17 +410,7 @@
                     "offer_price": "₹ 6,099",
                     "actual_price": "₹ 9,000 MRP",
                     "total_savings": "₹ 2,901 (32% Off)",
-                    "price": 6099,
-                    "details":{
-                        "brand": "DIY Furniture",
-                        "dimensions": "H 65 x W 58 x D 15 (All dimensions are in inches)",
-                        "weight": "12 KG",
-                        "warranty": "6 Months' Warranty",
-                        "assembly": "Self Assembly",
-                        "primary material": "Polypropelyene",
-                        "room type": "Living Room",
-                        "overview": "DIY Furniture focuses on functional products to suit day to day need for all. These are budget friendly and easy to use DIY products.Plastic cabinets have many advantages over other material used in kitchen/or any other Room, such as it is termite and waterproof. It has very low maintenance and easy to install. It is fire retardant and highly durable as much as 100 years. And the most important it is very economical."
-                    }
+                    "price": 6099
                 },
                 {
                     "id":51,
@@ -743,17 +420,7 @@
                     "offer_price": "₹ 25,499",
                     "actual_price": "₹ 35,999 MRP",
                     "total_savings": "₹ 10,500 (29% Off)",
-                    "price": 25499,
-                    "details":{
-                        "brand": "Bohemiana",
-                        "dimensions": "H 16 x W 28 x D 28 (all dimensions in inches)",
-                        "weight": "18 KG",
-                        "warranty": "36 Months' Warranty",
-                        "assembly": "No Assembly Required",
-                        "primary material": "Mango Wood",
-                        "room type": "Living Room",
-                        "overview": "Bohemiana is rhapsody for your home. Heres to the misfits and the rebels, the rule-breakers, the square pegs in the round holes, the ones who see things differently. Bohemiana is a collection thats just as unique as you. Channel your inner bohemian self with a furniture line thats part industrial, part distressed and 100% avant garde.Trunks are bulky enclosed storage containers; they can be either upholstered or just large wooden boxes with lids which are either placed in the bedroom to store linen or sometimes in the living rooms to use as a coffee table.Furniture bought on Pepperfry.com comes with a 3 Year Warranty against any manufacturing defects. So go ahead and buy with confidence."
-                    }
+                    "price": 25499
                 },
                 {
                     "id": 52,
@@ -763,17 +430,7 @@
                     "offer_price": "₹ 49,999",
                     "actual_price": "₹ 70,999 MRP",
                     "total_savings": "₹ 21,000 (30% Off)",
-                    "price": 49999,
-                    "details":{
-                        "brand": "Woodsworth",
-                        "dimensions": "H 70 x W 45 x D 14 (all dimensions in inches)",
-                        "weight": "55 KG",
-                        "warranty": "36 Months' Warranty",
-                        "assembly": "No Assembly Required",
-                        "primary material": "Sheesham Wood",
-                        "room type": "Living Room",
-                        "overview": "Woodsworth is our premium homegrown label thats part classic, part contemporary. A delectable amalgamation of the timeless and trendy, a precarious balance of function and flair. Woodsworth is a harmonious fit for all tastes, styles and spaces.Contemporary is very current and in trend, of the here and now. Its a very fluid, simplistic style which takes its cues from the in-vogue polishes, textures and colors of the season and is bereft of any ornamentation or embellishments.Bookshelf is a free-standing furniture unit with multiple horizontal stack of racks or shelves which are used for varied purposes to store your books or display curios. Some have a back panel or could be open from both sides."
-                    }
+                    "price": 49999
                 },
                 {
                     "id": 53,
@@ -783,17 +440,7 @@
                     "offer_price": "₹ 3,489",
                     "actual_price": "₹ 3,515 MRP",
                     "total_savings": "₹ 26 (1% Off)",
-                    "price": 3489,
-                    "details":{
-                        "brand": "Prima",
-                        "dimensions": "H 28 x W 26 x D 15 (all dimension in inches)",
-                        "weight": "6.6 KG",
-                        "warranty": "6 Months' Warranty",
-                        "assembly": "No Assembly Required",
-                        "primary material": "Plastic",
-                        "room type": "Living Room",
-                        "overview": "Our sturdy and durable cabinets are a great option to store your books, toys and clothes and much more! The versatile colours match with any room of any style. With a high-load capacity these are the ultimate storage solutions for your home."
-                    }
+                    "price": 3489
                 },
                 {
                     "id": 54,
@@ -804,18 +451,7 @@
                     "actual_price": "₹ 71,999 MRP",
                     "total_savings": "₹ 35,000 (49% Off)",
                     "price": 36999,
-                    "seater": 4,
-                    "details":{
-                        "brand": "Woodsworth",
-                        "dimensions": "Table : H 30 x W 45 x D 30 ; Chair : H 34 x W 17.5 x D 17.3 (all dimensions in inches)",
-                        "weight": "60 KG",
-                        "warranty": "36 Months' Warranty",
-                        "assembly": "Carpenter Assembly",
-                        "primary material": "Sheesham Wood",
-                        "room type": "Dining Room",
-                        "seating height": 18,
-                        "overview": "Woodsworth is our premium homegrown label thats part classic, part contemporary. A delectable amalgamation of the timeless and trendy, a precarious balance of function and flair. Woodsworth is a harmonious fit for all tastes, styles and spaces.Modern is a distinct, defined style which originated in the early 1900s. It uses a combination of vinyl, steel, plastic, glass or wood having monochromatic colors and sleek silhouettes. Modern furniture lives at the intersection of clean lines and relaxed comfort accentuating form and function.Dining Sets are coordinated table and chair or bench sets. They are large pieces of furniture which will instantly draw attention to itself. Its a focal gathering spot which should be able to accommodate all family members at mealtimes. They come in options of 2,4,6,8-Seater Dining Sets in different design styles."
-                    }
+                    "seater": 4
                 },
                 {
                     "id": 55,
@@ -826,18 +462,7 @@
                     "actual_price": "₹ 85,999 MRP",
                     "total_savings": "₹ 42,000 (49% Off)",
                     "price": 43999,
-                    "seater": 4,
-                    "details":{
-                        "brand": "CasaCraft",
-                        "dimensions": "Table : H 29.5 x W 43.3 x D 43.3; Chairs : H 31.5 x W 20.6 x D 22.4; Seating Height-18.1 (All dimension in inches)",
-                        "weight": "42.5 KG",
-                        "warranty": "36 Months' Warranty",
-                        "assembly": "Carpenter Assembly",
-                        "primary material": "Rubber Wood",
-                        "room type": "Dining Room",
-                        "seating height": 18,
-                        "overview": "Casacraft offers the best in comfort with elan. The collections are a series of modern trendy designs, simple yet striking and represent the ideals of minimalism. The designs are a perfect blend of functionality and exceptional aesthetics. Each piece is crafted with passion and follows international standards on quality and style.Mid Century Modern is a throwback to the design style of mid 50s and 60s. It is a minimalist design style which is fuss free with key design influences like splayed legs, geometric graphic patterns, natural organic shapes, mixed elements and contrasting textures. No ornate furnishings and excessive decoration for this distinct vintage style.Dining Sets are coordinated table and chair or bench sets. They are large pieces of furniture which will instantly draw attention to itself. Its a focal gathering spot which should be able to accommodate all family members at mealtimes. They come in options of 2,4,6,8-Seater Dining Sets in different design styles."
-                    }
+                    "seater": 4
                 },
                 {
                     "id": 56,
@@ -848,18 +473,7 @@
                     "actual_price": "₹ 74,999 MRP",
                     "total_savings": "₹ 32,000 (43% Off)",
                     "price": 42999,
-                    "seater": 4,
-                    "details":{
-                        "brand": "Woodsworth",
-                        "dimensions": "Table : H 36 x W 33 x D 33; Chair : H 36 x W 18 x D 18; Seating Height - 24 (all dimensions in inches)",
-                        "weight": "70 KG",
-                        "warranty": "36 Months' Warranty",
-                        "assembly": "Carpenter Assembly",
-                        "primary material": "Sheesham Wood",
-                        "room type": "Dining Room",
-                        "seating height": 24,
-                        "overview": "Woodsworth is our premium homegrown label thats part classic, part contemporary. A delectable amalgamation of the timeless and trendy, a precarious balance of function and flair. Woodsworth is a harmonious fit for all tastes, styles and spaces.If short on space and high on style a coordinated tall table and bar stools is the perfect match. Bar Table Sets are compact in design and perfect to gather around; its a versatile furniture piece which will be a sure shot winner for any meal or gathering.Furniture bought on Pepperfry.com comes with a 3 Year Warranty against any manufacturing defects. So go ahead and buy with confidence."
-                    }
+                    "seater": 4
                 },
                 {
                     "id": 57,
@@ -869,17 +483,7 @@
                     "offer_price": "₹ 15,999",
                     "actual_price": "₹ 27,999 MRP",
                     "total_savings": "₹ 12,000 (43% Off)",
-                    "price": 15999,
-                    "details":{
-                        "brand": "Woodsworth",
-                        "dimensions": "H 33 x W 24 x D 14 (all dimensions in inches)",
-                        "weight": "25 KG",
-                        "warranty": "36 Months' Warranty",
-                        "assembly": "Carpenter Assembly",
-                        "primary material": "Sheesham Wood",
-                        "room type": "Bar",
-                        "overview": "Woodsworth is our premium homegrown label thats part classic, part contemporary. A delectable amalgamation of the timeless and trendy, a precarious balance of function and flair. Woodsworth is a harmonious fit for all tastes, styles and spaces.Bar Trolley is a smalltableonwheels, outfittedforservingdrinks;your ownportablehandy bar.Furniture bought on Pepperfry.com comes with a 3 Year Warranty against any manufacturing defects. So go ahead and buy with confidence."
-                    }
+                    "price": 15999
                 },
                 {
                     "id": 58,
@@ -889,17 +493,7 @@
                     "offer_price": "₹ 30,999",
                     "actual_price": "₹ 43,999 MRP",
                     "total_savings": "₹ 13,000 (30% Off)",
-                    "price": 30999,
-                    "details":{
-                        "brand": "Bohemiana",
-                        "dimensions": "H 19 x W 57 x D 20 (all dimensions in inches)",
-                        "weight": "27 KG",
-                        "warranty": "36 Months' Warranty",
-                        "assembly": "No Assembly Required",
-                        "primary material": "Reclaimed Wood",
-                        "room type": "Living Room",
-                        "overview": "Bohemiana is rhapsody for your home. Heres to the misfits and the rebels, the rule-breakers, the square pegs in the round holes, the ones who see things differently. Bohemiana is a collection thats just as unique as you. Channel your inner bohemian self with a furniture line thats part industrial, part distressed and 100% avant garde.A Wine Rack is a set of shelves for the organized storage of wine. The size of the rack and the number of bottles it can hold can vary widely.Furniture bought on Pepperfry.com comes with a 3 Year Warranty against any manufacturing defects. So go ahead and buy with confidence."
-                    }
+                    "price": 30999
                 },
                 {
                     "id": 59,
@@ -909,17 +503,7 @@
                     "offer_price": "₹ 35,999",
                     "actual_price": "₹ 41,999 MRP",
                     "total_savings": "₹ 6,000 (14% Off)",
-                    "price": 35999,
-                    "details":{
-                        "brand": "Globally Indian",
-                        "dimensions": "H 71.5 x W 23.5 x D 15.75 (All Dimensions in Inches)",
-                        "weight": "51.9 KG",
-                        "warranty": "12 Months' Warranty",
-                        "assembly": "Carpenter Assembly",
-                        "primary material": "Mango Wood",
-                        "room type": "Bar",
-                        "overview": "Contemporary is very current and in trend, of the here and now. Its a very fluid style which takes its cues from the in vogue polishes, textures and colours of the season and bereft of any ornamentation or embellishments."
-                    }
+                    "price": 35999
                 },
                 {
                     "id": 60,
@@ -929,17 +513,7 @@
                     "offer_price": "₹ 30,999",
                     "actual_price": "₹ 48,999 MRP",
                     "total_savings": "₹ 18,000 (37% Off)",
-                    "price": 30999,
-                    "details":{
-                        "brand": "Bohemiana",
-                        "dimensions": "H 33 x W 39.4 x D 16 (all dimensions in inches)",
-                        "weight": "22 KG",
-                        "warranty": "36 Months' Warranty",
-                        "assembly": "No Assembly Required",
-                        "primary material": "Mango Wood",
-                        "room type": "Bar",
-                        "overview": "Bohemiana is rhapsody for your home. Heres to the misfits and the rebels, the rule-breakers, the square pegs in the round holes, the ones who see things differently. Bohemiana is a collection thats just as unique as you. Channel your inner bohemian self with a furniture line thats part industrial, part distressed and 100% avant garde.Bar Trolley is a smalltableonwheels, outfittedforservingdrinks;your ownportablehandy bar.Furniture bought on Pepperfry.com comes with a 3 Year Warranty against any manufacturing defects. So go ahead and buy with confidence."
-                    }
+                    "price": 30999
                 },
                 {
                     "id": 61,
@@ -950,18 +524,7 @@
                     "actual_price": "₹ 49,999 MRP",
                     "total_savings": "₹ 17,000 (34% Off)",
                     "price": 32999,
-                    "seater": 0,
-                    "details":{
-                        "brand": "Mudramark",
-                        "dimensions": "H 36 x W 41 x D 85.5; Seating Height-14; Mattress Not Included; Recommended Mattress Size: 78 L x 36 W Inch",
-                        "weight": "42 KG",
-                        "warranty": "36 Months' Warranty",
-                        "assembly": "Carpenter Assembly",
-                        "primary material": "Sheesham Wood",
-                        "room type": "Bedroom",
-                        "seating height": 14,
-                        "overview": "Mudramark takes inspiration from our rich cultural heritage and ingenious art. Mudramark proudly ushers in the best handcrafted furniture from across India and brings it closer to you. Carefully curated to give your homes an ethnic touch, each creation is a piece de resistance that gives your space a definitive personality.Traditional Style takes inspiration from indigenous arts and craft originating from the Indian sub-continent and certain style periods pertaining to the early Baroque and French eras. Traditional furniture is synonymous with artistic embellishments, contrasting inlays, plush fabrics, decorative trims, crown moldings and intricate details.Furniture bought on Pepperfry.com comes with a 3 Year Warranty against any manufacturing defects. So go ahead and buy with confidence."
-                    }
+                    "seater": 0
                 },
                 {
                     "id": 62,
@@ -972,18 +535,7 @@
                     "actual_price": "₹ 63,999 MRP",
                     "total_savings": "₹ 25,000 (39% Off)",
                     "price": 38999,
-                    "seater": 0,
-                    "details":{
-                        "brand": "Dreamzz Furniture",
-                        "dimensions": "H 60 x W 65 x D 86; Seating Height-13 (Mattress Not Included);Mattress Size: 78 L x 60 W Inch (All Dimension in inches)",
-                        "weight": "65 KG",
-                        "warranty": "12 Months' Warranty",
-                        "assembly": "Carpenter Assembly",
-                        "primary material": "Fabric",
-                        "room type": "Bedroom",
-                        "seating height": 13,
-                        "overview": "Fulfilling Dreams is like a fine delicacy that is desired by many, but enjoyed by few. Here you will find the perfect combination of your dreams & our passion coming together to make your design dreams come true. Whether our furniture becomes the centrepiece of your freshly designed room or a perfect accent to existing dcor, we deliver furniture for your individual needs.Upholstered Beds are covered in light padding and fabric which gives a textural appeal; they could be made with velvet, leatherette, suede or simple fabric upholstery and typically have tufted or straight streamlined headboards."
-                    }
+                    "seater": 0
                 },
                 {
                     "id": 63,
@@ -994,18 +546,7 @@
                     "actual_price": "₹ 1,15,999 MRP",
                     "total_savings": "₹ 39,000 (34% Off)",
                     "price": 76999,
-                    "seater": 0,
-                    "details":{
-                        "brand": "Mudramark",
-                        "dimensions": "H 80 x W 79 x D 83; Seating Height-14; Mattress Not Included; Mattress Size: 78 L x 72 W Inch",
-                        "weight": "133 kG",
-                        "warranty": "36 Months' Warranty",
-                        "assembly": "Carpenter Assembly",
-                        "primary material": "Sheesham Wood",
-                        "room type": "Bedroom",
-                        "seating height": 14,
-                        "overview": "Mudramark takes inspiration from our rich cultural heritage and ingenious art. Mudramark proudly ushers in the best handcrafted furniture from across India and brings it closer to you. Carefully curated to give your homes an ethnic touch, each creation is a piece de resistance that gives your space a definitive personality.A Poster Bed is a classy style bed with four vertical columns, one in each corner, that support a tester, or upper (usually rectangular) panel. This tester or panel will often have rails to allow curtains to be pulled around the bed.Furniture bought on Pepperfry.com comes with a 3 Year Warranty against any manufacturing defects. So go ahead and buy with confidence."
-                    }
+                    "seater": 0
                 },
                 {
                     "id": 64,
@@ -1015,17 +556,7 @@
                     "offer_price": "₹ 16,274",
                     "actual_price": "₹ 21,699 MRP",
                     "total_savings": "₹ 5,425 (25% Off)",
-                    "price": 16274,
-                    "details":{
-                        "brand": "Hush",
-                        "dimensions": "72 L x 72 W Inch; Mattress Thickness: 8 Inches",
-                        "weight": "33 KG",
-                        "warranty": "10 Months' Warranty",
-                        "assembly": "No Assembly Required",
-                        "primary material": "Bamboo Fabric",
-                        "room type": "Bedroom",
-                        "overview": "The Orthopedic Support PU Foam Mattress is ideal for anyone who is currently using a cotton or coir mattress and is looking to upgrade to something more comfortable without making a hole in their pockets. The top (comfort) layer of this mattress is made from Super Soft PU foam that helps cushion your joints and cradle your body while you sleep and the base (support) layer is made from our signature high resilience (HR) foam that works through the night to counter the force of gravity that is pulling your body downwards, and in the process ensures that every part of your body is adequately supported."
-                    }
+                    "price": 16274
                 },
                 {
                     "id": 65,
@@ -1036,18 +567,8 @@
                     "actual_price": "₹ 26,489 MRP",
                     "total_savings": "₹ 6,990 (26% Off)",
                     "price": 19499,
-                    "seater": 0,
-                    "details":{
-                        "brand": "AURA",
-                        "dimensions": "H 17.5 x W 31 x D 76 Mattress Included ; Mattress Size: 75 L x 30 W Inch (All Dimensions in Inches)",
-                        "weight": "22.8 KG",
-                        "warranty": "12 Months' Warranty",
-                        "assembly": "No Assembly Required",
-                        "primary material": "Metal",
-                        "room type": "Bedroom",
-                        "seating height": 17.5,
-                        "overview": "With exclusive supply quality furniture of wide applications to our esteemed customers our product list entails outdoor furniture & other metal seatings.Folding Beds are easy to use for that overnight unexpected guest; single beds with metal frames and mattresses which open and fold too; some come with wheels to aid in rolling them away."
-                    }
+                    "seater": 0
+        
                 },
                 {
                     "id": 66,
@@ -1058,18 +579,8 @@
                     "actual_price": "₹ 37,497 MRP",
                     "total_savings": "₹ 18,498 (49% Off)",
                     "price": 18999,
-                    "seater": 0,
-                    "details":{
-                        "brand": "Mollycoddle",
-                        "dimensions": "31.7 H x 34.6 W x 84.8 D; Bed seating height - 14.6; Auxillary bed seating height - 4.25; Mattress Size : 74 x 30.7 ; Trundle mattress - 74 x 30.7 (Not Included) (all dimensions in inches)",
-                        "weight": "65.4 KG",
-                        "warranty": "12 Months' Warranty",
-                        "assembly": "Carpenter Assembly",
-                        "primary material": "Engineered Wood",
-                        "room type": "Kids Room",
-                        "seating height": 14,
-                        "overview": "Mollycoddle adds a fun element to the kids room with an adorable range of playful and lively collection of kids furniture. Each piece is carefully designed to suit the needs of your kids, with a palette of colours that appeal to all age groups. Along with great aesthetics, the collection follows world class safety norms for kids furniture.Trunde Beds are low beds that can be stored under a slighter larger higher bed. Typically used for compact rooms or a space which require empty floor space during the day and additional beds at night time."
-                    }
+                    "seater": 0
+                
                 },
                 {
                     "id": 67,
@@ -1080,18 +591,8 @@
                     "actual_price": "₹ 82,999 MRP",
                     "total_savings": "₹ 56,000 (67% Off)",
                     "price": 26999,
-                    "seater": 0,
-                    "details":{
-                        "brand": "CasaCraft",
-                        "dimensions": "H 66.5 x W 40.1 x D 80.2; Seating Height-17.48; Mattress - Upper - 35 x 75, Lower - 35 x 75 (Not included) (All dimension in inches)",
-                        "weight": "79 KG",
-                        "warranty": "12 Months' Warranty",
-                        "assembly": "Carpenter Assembly",
-                        "primary material": "Rubber Wood",
-                        "room type": "Kids Room",
-                        "seating height": 18,
-                        "overview": "Casacraft offers the best in comfort with elan. The collections are a series of modern trendy designs, simple yet striking and represent the ideals of minimalism. The designs are a perfect blend of functionality and exceptional aesthetics. Each piece is crafted with passion and follows international standards on quality and style.Standard bunk beds are two beds positioned one atop the other with or without trundle storage option. Ideally comes in a configuration of twin over twin size or twin over full size beds.So go ahead and buy with confidence."
-                    }
+                    "seater": 0
+                
                 }
             
         ]
