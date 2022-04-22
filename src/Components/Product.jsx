@@ -9,7 +9,8 @@ import { Pagination } from '@mui/material';
 import {Search }from './Search.jsx'
 import {useNavigate,useParams} from 'react-router';
 import {Button ,ButtonGroup} from '@mui/material'
-
+import {addCart} from '../redux/Cart/action'
+import HamburgerDrawer from 'react-hamburger-drawer';
 
 
 
@@ -22,10 +23,9 @@ const ProductPage = () => {
   const [val,setVal] = useState("")
 const params = useParams()
 const navigate = useNavigate()
-const [category,setCategory] = useState("")
+
   const dispatch = useDispatch();
   const [page, setPage] = useState(1);
-
   const fetchData = async () => {
     return axios({
       url: `http://localhost:8000/furniture?_page=${page}&_limit=30`,
@@ -47,9 +47,17 @@ const [category,setCategory] = useState("")
   }, [page]);
 
 
-  const data = useSelector((state) => state.data.data);
-  console.log(data);
 
+
+  const data = useSelector((state) => state.Data.data);
+  const CartData = useSelector((state) => state.Cart.cart);
+  console.log(CartData);
+
+
+  const Send = (e) => {
+  dispatch(addCart(e))
+  console.log(e)
+  }
   const sortBylow =(m) => {
     if(m==="l"){
      let res = data.sort((a,b) => a.price - b.price)
@@ -167,7 +175,10 @@ const [category,setCategory] = useState("")
                   <div >
                     <img src={a.img[0]} alt="" id="img" />
                   </div>
-
+                  <div className="bg-green-300 w-2/5 text-white">
+                  <Button onClick={() => {Send(a)}}  >Add to Cart</Button>
+                  </div>
+                  
                   <div className=" mt-1 mb-2  ">
                    
                       <div className="text-md font-semi-bold borde w-72 ">
@@ -211,6 +222,7 @@ const [category,setCategory] = useState("")
           onChange={(e, value) => setPage(value)}
         />
       </Box>
+
     </div>
   );
 };

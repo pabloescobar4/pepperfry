@@ -14,10 +14,23 @@ const INITIAL_STATE = {
 export const cartReducer = (state=INITIAL_STATE, action) => {
 
 	switch (action.type) {
-    case ADDTOCART : return {}
-	case REMOVECART : return {}
-	case ADJUSTQTY : return {}
-	case CURRENTITEM : return {}
+    case ADDTOCART : 
+	return {
+		...state,
+		cart:[...state.cart,action.payload],
+	}
+	case REMOVECART : 
+	return {
+     
+	}
+	case ADJUSTQTY : 
+	return {
+
+	}
+	case CURRENTITEM : 
+	return {
+
+	}
 	default: return state
 	}
 }

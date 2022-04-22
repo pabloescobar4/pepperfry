@@ -6,22 +6,14 @@ import { createStore } from 'redux';
 import { composeWithDevTools } from '@redux-devtools/extension';
 
 const rootReducer = combineReducers({
-    data : dataReducer,
-	cart : cartReducer
+    Data : dataReducer,
+	Cart : cartReducer
 })
 
 const store = createStore(
  rootReducer,
-  composeWithDevTools(
-    // other store enhancers if any
-  )
+  composeWithDevTools()
 );
 
 export {store}
 
-
-// import {userReducer} from '../Redux/User/reducer'
-// import {createStore, combineReducers} from 'redux'
-
-
-// export const store = createStore(rootReducer)
