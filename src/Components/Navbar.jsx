@@ -36,10 +36,10 @@ const NavBar = () => {
 	  const data = useSelector((state) => state.Cart.cart)
 	 
 
-	  const totalsum = () => {
-		  const sum = 0
-		  console.log(data.reduce((a,b) => a.price + b.price ,sum))
-	  }
+	//   const totalsum = () => {
+	// 	  const sum = 0
+	// 	  console.log(data.reduce((a,b) => a.price + b.price ,sum))
+	//   }
   
 
 	  const [showMenu,setShowMenu] = useState(false)
@@ -47,7 +47,7 @@ const NavBar = () => {
 	  let m 
 	  if(login){
 		  m = <div>
-			  <div className="fixed bg-white top-24 p-2 right-20 w-25 h-30 z-50 shadow">
+			  <div className="fixed bg-white top-24 p-2 right-20 w-25 h-30 z-50 shadow  div3" >
 			  <div className="ml-36">
 				  <ClearIcon onClick={()=>{setLogin(false)}} className="cursor-pointer"/>
 				  </div>

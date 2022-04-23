@@ -6,11 +6,11 @@ import { useSelector, useDispatch } from 'react-redux';
 import { storeData } from '../redux/storeData/action';
 import Box from '@mui/material/Box';
 import { Pagination } from '@mui/material';
-import {Search }from './Search.jsx'
-import {useNavigate,useParams} from 'react-router';
+
+// import {useNavigate,useParams} from 'react-router';
 import {Button ,ButtonGroup} from '@mui/material'
 import {addCart} from '../redux/Cart/action'
-import HamburgerDrawer from 'react-hamburger-drawer';
+
 
 
 
@@ -21,14 +21,14 @@ const ProductPage = () => {
   const [value,setValue] = useState([])
 	//console.log(search)
   const [val,setVal] = useState("")
-const params = useParams()
-const navigate = useNavigate()
+// const params = useParams()
+// const navigate = useNavigate()
 
   const dispatch = useDispatch();
   const [page, setPage] = useState(1);
   const fetchData = async () => {
     return axios({
-      url: `http://localhost:8000/furniture?_page=${page}&_limit=30`,
+      url: `https://pepperfrydb1.herokuapp.com/furniture?_page=${page}&_limit=30`,
       method: 'GET',
       params: {},
     })

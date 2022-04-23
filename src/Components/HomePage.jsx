@@ -1,7 +1,6 @@
 import React from 'react'
 import '../Style/home.css'
-import {useNavigate} from 'react-router'
-import {useSelector} from 'react-redux'
+
   import ImageList from '@mui/material/ImageList';
   import ImageListItem from '@mui/material/ImageListItem';
   import Slideshow from './Slideshow'

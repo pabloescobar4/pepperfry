@@ -1,6 +1,6 @@
 import {ProductPage} from './Components/Product.jsx'
 import './App.css';
-import { Routes, Route, useParams } from "react-router-dom";
+import { Routes, Route, } from "react-router-dom";
 import {HomePage} from "./Components/HomePage"
 import  {NavBar}  from "./Components/Navbar"
 import {Cart} from "./Components/Cart"
