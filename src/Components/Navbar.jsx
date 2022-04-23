@@ -47,7 +47,7 @@ const NavBar = () => {
 	  let m 
 	  if(login){
 		  m = <div>
-			  <div className="fixed bg-white top-24 p-2 right-20 w-25 h-30 z-50 shadow  div3" >
+			  <div className="fixed bg-white top-24 p-2 right-20 w-25 h-30 z-50 shadow " >
 			  <div className="ml-36">
 				  <ClearIcon onClick={()=>{setLogin(false)}} className="cursor-pointer"/>
 				  </div>
@@ -69,7 +69,7 @@ const NavBar = () => {
     
 	  if(showMenu){
 		  menu = 
-		  <div className="fixed bg-white top-0 right-0 w-1/3 h-full z-50 shadow">
+		  <div className="fixed bg-white top-0 right-0 w-1/3 h-full z-50 shadow  div3">
 			 
 			  <div >
 				<div className="border bg-black p-8 w-full h-1/5 flex justify-between text-2xl text-white">
