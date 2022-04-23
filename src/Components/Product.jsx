@@ -50,6 +50,7 @@ const ProductPage = () => {
 
 
   const data = useSelector((state) => state.Data.data);
+  
   const CartData = useSelector((state) => state.Cart.cart);
   console.log(CartData);
 
@@ -122,31 +123,19 @@ const ProductPage = () => {
         variant="contained"
     
       >
-   <div className=""> 
-  <Button className="mt-5 w-48" onClick= {() => {sortBylow("l")}}>Low To High</Button>
-  </div>
-  <div className="mt-5">
-  <Button className="mt-5 w-48" onClick= {() => {sortBylow("h")}}>high to low</Button>
-  </div>
-  <div className="mt-5">
- 
-  <Button className="mt-5 w-48" onClick={() => {setVal("sofas")}} >Sofas </Button>
-  </div>
-  <div className="mt-5">
-  <Button className="mt-5 w-48"onClick={() => {setVal("Chair")}} >Chair</Button>
-  </div>
-  <div className="mt-5">
-  <Button className="mt-5 w-48" onClick={() => {setVal("Settee")}} >Settee</Button>
-  </div>
-<div className="mt-5"> 
-<Button className="mt-5 w-48" onClick={() => {setVal("Armchair")}} >ArmChair</Button>
-</div>
+
+<button onClick= {() => {sortBylow("l")}} type="button" class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-1 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Low To High</button>
+<button onClick= {() => {sortBylow("h")}} type="button" class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-1 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">High to low</button>
+<button onClick={() => {setVal("sofas")}} type="button" class="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-1 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Sofas</button>
+<button  onClick={() => {setVal("Settee")}} type="button" class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-1 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Settee</button>
+<button onClick={() => {setVal("Chair")}} type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-1 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Chair</button>
+  
       </ButtonGroup>
   
     </Box>
        </div>
-      
       <div className="container " >
+      
     
    
         {data
@@ -171,16 +160,22 @@ const ProductPage = () => {
         .map((a) => {
           return (
             <>
-              <div className="borde w-80 " key={a.id}>
+              <div className="border border-gray-300 w-80 shadow-lg shadow-blue-500/50 p-4" key={a.id}>
                 <div className="   h-full ">
                   <div >
                     <img src={a.img[0]} alt="" id="img" />
                   </div>
-                  <div className="b  w-2/5 text-white">
+                  <div className="b  w-3/5 text-white mt-2">
                     <div>
-                      <button className="bg-blue-500 shadow-lg rounded-2xl p-2 hover:bg-blue-600 shadow-blue-500/50  " onClick={() => {Send(a)}} >
-                        Add to cart
-                      </button>
+
+                    <button className="relative inline-flex items-center justify-center p-2.5 mb-1 mr-1 overflow-hidden text-sm font-medium text-white rounded-lg group bg-white  focus:ring-1 bg-gradient-to-br from-green-500 to-blue-700 group-hover:from-green-400 group-hover:to-blue-600 hover:text-gray-200  focus-ring-1 focus:outline-none focus:ring-blue-200 dark:focus:ring-green-800  " onClick={() => {Send(a)}}>
+
+  Add to cart
+  
+</button>
+                      {/* <button className="bg-blue-500 shadow-lg rounded-2xl p-2 mt-2 hover:bg-blue-600 shadow-blue-500/50  "  >
+                      
+                      </button> */}
                     </div>
           
                   </div>
