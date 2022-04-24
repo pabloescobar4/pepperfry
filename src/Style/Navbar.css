@@ -75,7 +75,7 @@ input:focus{
 }
 
 #nbicons{
-  margin-left:140px;
+  margin-left:0px;
   color:rgb(121, 104, 104);
   font-weight:500;
   border:1.5px solid rgb(103, 96, 96);

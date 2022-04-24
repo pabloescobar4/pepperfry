@@ -89,8 +89,8 @@ const ProductPage = () => {
   
   return (
     <div>
-  <div>
-       <input type="text"placeholder="What are you loooking for" className="search" onChange={(e) => setSearch(e.target.value)} />
+  <div className="ml-14 mt-5">
+       <input type="text"placeholder="What are you loooking" className="search" onChange={(e) => setSearch(e.target.value)} />
         </div>
 
     
@@ -105,7 +105,7 @@ const ProductPage = () => {
   
       
 
-    <div className="flex">
+    <div className="flex ml-10">
        <div >
        <Box
       sx={{

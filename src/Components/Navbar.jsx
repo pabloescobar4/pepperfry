@@ -233,25 +233,29 @@ const [s,setS] = useState(false)
 		<div className="input">
 			<input type="text" placeholder="Your door to happiness opens with a search" className="" />
 		</div>
+		<div  className="border flex   w-1/5 ml-32 relative">
+
+		
 		<div>
-		<div className="cursor-pointer -ml-3" >
+		<div className="cursor-pointer  " >
 			<p id="nbicons">HELP</p>
 		</div>
 		
 	   </div>
-	   <div className="mt -ml-3">
+	 
+	   <div className="mt ml-4 ">
 	 
 	   <PersonSharpIcon fontSize="large" className="cursor-pointer" onMouseLeave={()=>{setLogin(s)}} onMouseEnter={()=>{setLogin(!login)}} />
 	   </div>
-	   <div className="mt cursor-pointer mr-3">
+	   <div className="mt cursor-pointer ml-4">
        <FavoriteBorderOutlinedIcon fontSize="large" />
 	   </div>
-	   <div className="mt cursor-pointer flex -ml-3 " onClick={()=>{setShowMenu(!showMenu)}}>
+	   <div className="mt cursor-pointer flex ml-4 " onClick={()=>{setShowMenu(!showMenu)}}>
 	   <ShoppingCartIcon fontSize="large"  />
 	   <div className="-mt-2 -ml-1 text-white border bg-red-400 pl-1 pb-1 pr-1 rounded-xl font-bold h-6">
 	   {data.length}
 	   </div>
-	  
+	   </div>
 	   </div>
 	</div>
 	
