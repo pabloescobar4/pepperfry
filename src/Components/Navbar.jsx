@@ -94,8 +94,8 @@ const [s,setS] = useState(false)
 		  menu = 
 		  <div className="fixed bg-white top-0 right-0 w-1/3 h-full z-50 shadow  div3">
 			 
-			  <div >
-				<div className="border bg-black p-8 w-full h-1/6  flex justify-between  top-0 text-2xl text-white">
+			  <div className="relative">
+				<div className="border bg-black p-8 w-full h-1/6  flex justify-between fixed top-0 text-2xl text-white">
 					<div>
 					My Cart
 					</div>
@@ -108,12 +108,14 @@ const [s,setS] = useState(false)
 	
 					 </div> 
 
-					 <div>
+					 <div className=" mt-36">
 						 {data.map((item) => {
 							 return (
-							 <div classname="w-full h-1/5 border border-green-100 bg-white overflow-x-auto ">
+							 <div classname="w-full h-1/5 border border-green-100 bg-white  overflow-x-auto ">
+                                 <div className=" border">
 
-								 <div className="flex p-5 text-sm">
+								
+								 <div className="flex p-5 text-sm ">
 								 <div className="w-2/5">
 									 <img src={item.id.img[0]} alt="" />
 								 </div>
@@ -145,7 +147,7 @@ const [s,setS] = useState(false)
 								 </div>
 								 
 								 </div>
-								
+								 </div>
                            
 
 

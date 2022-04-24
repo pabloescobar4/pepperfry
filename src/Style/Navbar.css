@@ -98,3 +98,10 @@ input:focus{
   .nwwe{
 	black-transparen-50:'rgba(0,0,0,0.5)'
   }
+
+  .tej{
+	  min-width:200px;
+	  min-height:200px;
+	  max-height:200px;
+	  max-width:200px;
+  }
