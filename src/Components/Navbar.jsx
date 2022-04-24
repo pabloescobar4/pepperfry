@@ -8,10 +8,34 @@ import { useSelector } from 'react-redux';
 import ClearIcon from '@mui/icons-material/Clear';
 import {removeCart} from '../redux/Cart/action'
 import {useDispatch} from 'react-redux'
+import Stack from '@mui/material/Stack';
+import Button from '@mui/material/Button';
+import Snackbar from '@mui/material/Snackbar';
+import MuiAlert from '@mui/material/Alert';
+
+
+const Alert = React.forwardRef(function Alert(props, ref) {
+	return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
+  });
 const NavBar = () => {
 
-	const dispatch = useDispatch();
+   
+	const [open, setOpen] = React.useState(false);
 
+	const handleClick1 = () => {
+	  setOpen(true);
+	};
+  
+	const handleClose = (event, reason) => {
+	  if (reason === 'clickaway') {
+		return;
+	  }
+  
+	  setOpen(false);
+	};
+  
+	const dispatch = useDispatch();
+const [s,setS] = useState(false)
 	const remove = (id) => {
 		console.log(id.id)
 		dispatch(removeCart(id))
@@ -47,16 +71,14 @@ const NavBar = () => {
 	  let m 
 	  if(login){
 		  m = <div>
-			  <div className="fixed bg-white top-24 p-2 right-20 w-25 h-30 z-50 shadow " >
-			  <div className="ml-36">
-				  <ClearIcon onClick={()=>{setLogin(false)}} className="cursor-pointer"/>
-				  </div>
+			  <div className="fixed bg-white top-24 p-5 right-20 w-25 h-30 z-50 shadow " onMouseEnter={()=>{setLogin(!s)}} onMouseLeave={()=>{setLogin(s)}}>
+			
              <div className= "h-1/2 w-full p-2 bg-blue-300 pl-5" onClick={()=>{setLogin(false)}}>
 				 <button onClick={() =>{handleClicklogin()}}> LOGIN/REGISTER</button>
 
                
 			 </div>
-			 <div className="text-sm h-1/2 -1/2">
+			 <div className="text-sm h-1/2 -1/2 pt-3">
 			 To access your account 
 			 </div>
 			 <div className="text-sm">
@@ -66,13 +88,14 @@ const NavBar = () => {
 		  </div>
 	  }
 	  let menu
+	  let menuMask
     
 	  if(showMenu){
 		  menu = 
 		  <div className="fixed bg-white top-0 right-0 w-1/3 h-full z-50 shadow  div3">
 			 
 			  <div >
-				<div className="border bg-black p-8 w-full h-1/5 flex justify-between text-2xl text-white">
+				<div className="border bg-black p-8 w-full h-1/6  flex justify-between  top-0 text-2xl text-white">
 					<div>
 					My Cart
 					</div>
@@ -88,7 +111,7 @@ const NavBar = () => {
 					 <div>
 						 {data.map((item) => {
 							 return (
-							 <div classname="w-full h-1/5 border border-green-100 bg-white">
+							 <div classname="w-full h-1/5 border border-green-100 bg-white overflow-x-auto ">
 
 								 <div className="flex p-5 text-sm">
 								 <div className="w-2/5">
@@ -134,24 +157,49 @@ const NavBar = () => {
 						 })}
 					 </div>
 			  </div>
-			  <div className="border bg-blue-500 w-full h-16 fixed bottom-0 flex ">
+			  <div className="border bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl text-white w-full h-16 fixed bottom-0 flex ">
                   
 				  <div className=" p-4   text-2xl rounded-xl text-white">
                  
 				  </div>
 
-				  <div className="p-4  text-2xl text-white rounded-xl ml-36" onClick={() => {done()}}>
-					 Proceed to Pay
+				  <div className="p-4  text-2xl rounded-xl ml-36" >
+				  <Stack spacing={2} sx={{ width: '100%' }}>
+      <div variant="outlined" onClick={handleClick1} className="text-white cursor-pointer ">
+		  <div className="text-white w-full">
+		  Proceed
+		  </div>
+    
+      </div>
+      <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
+        <Alert onClose={handleClose} severity="success" sx={{ width: '100%' }}>
+         Your Order is Successful  !!
+        </Alert>
+      </Snackbar>
+      
+    </Stack>
 				  </div>
+
+		
 
 			  </div>
 		  </div>
 	  }
+	  const [blur,setBlur] = useState(false)
+	 if(showMenu){
+		 menuMask =
+	 <div className="" >
 
+	 <div className="bg-black-t-50 fixed top-0 left-0 w-2/3 h-full z-50" onClick={()=>{setShowMenu(false)} }>
+      fdsffd
+	 </div>
+	 </div>
+	 }
   return(
 	  <>
 
 	<div className="Navbar1">
+
       <div>
 		  Sell on pepperfry
 		  
@@ -191,7 +239,7 @@ const NavBar = () => {
 	   </div>
 	   <div className="mt -ml-3">
 	 
-	   <PersonSharpIcon fontSize="large" className="cursor-pointer" onClick={()=>{setLogin(!login)}} />
+	   <PersonSharpIcon fontSize="large" className="cursor-pointer" onMouseLeave={()=>{setLogin(s)}} onMouseEnter={()=>{setLogin(!login)}} />
 	   </div>
 	   <div className="mt cursor-pointer mr-3">
        <FavoriteBorderOutlinedIcon fontSize="large" />
@@ -249,7 +297,9 @@ Modular
 	</div>
 	</div>
 
+	
 	{menu}
+	{menuMask}
 	{m}
 	</>
    )

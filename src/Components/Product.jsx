@@ -165,14 +165,10 @@ const ProductPage = () => {
                   <div >
                     <img src={a.img[0]} alt="" id="img" />
                   </div>
-                  <div className="b  w-3/5 text-white mt-2">
+                  <div className="b  w-3/5 text-white mt-2 ml-20">
                     <div>
-
-                    <button className="relative inline-flex items-center justify-center p-2.5 mb-1 mr-1 overflow-hidden text-sm font-medium text-white rounded-lg group bg-white  focus:ring-1 bg-gradient-to-br from-green-500 to-blue-700 group-hover:from-green-400 group-hover:to-blue-600 hover:text-gray-200  focus-ring-1 focus:outline-none focus:ring-blue-200 dark:focus:ring-green-800  " onClick={() => {Send(a)}}>
-
-  Add to cart
-  
-</button>
+                    <button  type="button" class="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-1 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2" onClick={() => {Send(a)}} >  Add to cart</button>
+            
                       {/* <button className="bg-blue-500 shadow-lg rounded-2xl p-2 mt-2 hover:bg-blue-600 shadow-blue-500/50  "  >
                       
                       </button> */}

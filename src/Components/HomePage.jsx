@@ -47,6 +47,33 @@ import '../Style/home.css'
 		  </ImageListItem>
 		))}
 	  </ImageList>
+<div className="text-3xl m-4 font-semibold">
+
+Home Décor You Can't Ignore
+</div>
+		
+	  <ImageList
+		sx={{ width: 'full', height: 'full'  }}
+		variant="quilted"
+		cols={4}
+		
+		rowHeight={400}
+		gap={12}
+	  >
+		{itemData.map((item) => (
+		  <ImageListItem key={item.img} cols={item.cols || 1} rows={item.rows || 1}>
+			<img
+			  {...srcset(item.img, 121, item.rows, item.cols)}
+			  alt={item.title}
+			  loading="lazy"
+			/>
+			<div>
+			<h1 className="ml-5 -mt-5 text-white">{}</h1>
+			</div>
+			
+		  </ImageListItem>
+		))}
+	  </ImageList>
 	  </div>
 	  </>
 	);
