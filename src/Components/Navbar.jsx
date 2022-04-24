@@ -108,7 +108,7 @@ const [s,setS] = useState(false)
 	
 					 </div> 
 
-					 <div className=" mt-36">
+					 <div className=" mt-36 mb-16">
 						 {data.map((item) => {
 							 return (
 							 <div classname="w-full h-1/5 border border-green-100 bg-white  overflow-x-auto ">
@@ -117,7 +117,7 @@ const [s,setS] = useState(false)
 								
 								 <div className="flex p-5 text-sm ">
 								 <div className="w-2/5">
-									 <img src={item.id.img[0]} alt="" />
+									 <img src={item.id.img[0]} alt="" className="tej" />
 								 </div>
 								 <div className="ml-4 ">
 									 <div className="mb-4">
