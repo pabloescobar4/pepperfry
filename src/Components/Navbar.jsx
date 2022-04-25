@@ -59,7 +59,7 @@ const [s,setS] = useState(false)
 	  }
 	  const [value,setValue] = useState(0)
 	  const data = useSelector((state) => state.Cart.cart)
-	 const sum = (item) => {
+	 const sum = () => {
 		
 		const ans =	data.reduce((a, b) => a.id.price + b.id.price)
 		setValue([...value,ans])
