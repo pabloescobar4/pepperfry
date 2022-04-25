@@ -233,11 +233,11 @@ const [s,setS] = useState(false)
 		<div className="input">
 			<input type="text" placeholder="Your door to happiness opens with a search" className="" />
 		</div>
-		<div  className="border flex   w-1/5 ml-32 relative">
+		<div  className="border flex   w-1/5  relative lg:ml-42 lg:bg-green-100 md:ml-28 md:bg-blue-300 sm:ml-10 sm:bg-red-100">
 
 		
 		<div>
-		<div className="cursor-pointer  " >
+		<div className="cursor-pointer   " >
 			<p id="nbicons">HELP</p>
 		</div>
 		
