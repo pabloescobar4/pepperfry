@@ -57,7 +57,14 @@ const [s,setS] = useState(false)
 	  function handleClicklogin() {
 		navigate('/cart')
 	  }
+	  const [value,setValue] = useState(0)
 	  const data = useSelector((state) => state.Cart.cart)
+	 const sum = (item) => {
+		
+		const ans =	data.reduce((a, b) => a.id.price + b.id.price)
+		setValue([...value,ans])
+		
+	 }
 	 
 
 	//   const totalsum = () => {
@@ -140,7 +147,9 @@ const [s,setS] = useState(false)
 								 <div>
 									 <button className="bg-black text-white p-1 rounded-xl mt-3 " onClick={() => remove(item.id)}>Remove</button>
 								 </div>
-								
+								 <div onClick={() => sum(item)}>
+									{value}
+								 </div>
 								 </div>
 								 <div>
 								   
@@ -188,12 +197,13 @@ const [s,setS] = useState(false)
 		  </div>
 	  }
 	  const [blur,setBlur] = useState(false)
+	
 	 if(showMenu){
 		 menuMask =
 	 <div className="" >
 
 	 <div className="bg-black-t-50 fixed top-0 left-0 w-2/3 h-full z-50" onClick={()=>{setShowMenu(false)} }>
-      fdsffd
+     
 	 </div>
 	 </div>
 	 }
