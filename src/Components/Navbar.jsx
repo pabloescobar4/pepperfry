@@ -67,7 +67,7 @@ const [s,setS] = useState(false)
 		console.log(ans)
 		
 	 }
-	 sum()
+	
      
 	//   const totalsum = () => {
 	// 	  const sum = 0
@@ -247,7 +247,7 @@ const [s,setS] = useState(false)
 		<div className="input">
 			<input type="text" placeholder="Your door to happiness opens with a search" className="" />
 		</div>
-		<div  className="border flex   w-1/5  ">
+		<div  className="borde flex   w-2/5   lg:pl-24 lg: md:ml-28 md: sm:ml-10 sm:">
 
 		
 		<div>
