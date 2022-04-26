@@ -152,7 +152,7 @@ const [s,setS] = useState(false)
 									 <button className="bg-black text-white p-1 rounded-xl mt-3 " onClick={() => remove(item.id)}>Remove</button>
 								 </div>
 								 <div>
-									()
+									
 								 </div>
 								 </div>
 								 <div>
