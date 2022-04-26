@@ -14,26 +14,29 @@ import Snackbar from '@mui/material/Snackbar';
 import MuiAlert from '@mui/material/Alert';
 
 
+
 const Alert = React.forwardRef(function Alert(props, ref) {
 	return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
   });
+
 const NavBar = () => {
 
-   
-	const [open, setOpen] = React.useState(false);
 
-	const handleClick1 = () => {
+
+const [open, setOpen] = React.useState(false);
+    
+const handleClick1 = () => {
 	  setOpen(true);
 	};
-  
+    
 	const handleClose = (event, reason) => {
 	  if (reason === 'clickaway') {
 		return;
 	  }
-  
+    
 	  setOpen(false);
 	};
-  
+     
 	const dispatch = useDispatch();
 const [s,setS] = useState(false)
 	const remove = (id) => {
@@ -57,21 +60,22 @@ const [s,setS] = useState(false)
 	  function handleClicklogin() {
 		navigate('/cart')
 	  }
-	  const [value,setValue] = useState(0)
 	  const data = useSelector((state) => state.Cart.cart)
-	 const sum = () => {
+	 const sum = (item) => {
 		
 		const ans =	data.reduce((a, b) => a.id.price + b.id.price)
-		setValue([...value,ans])
+		console.log(ans)
 		
 	 }
-	 
-
+	 sum()
+     
 	//   const totalsum = () => {
 	// 	  const sum = 0
 	// 	  console.log(data.reduce((a,b) => a.price + b.price ,sum))
 	//   }
   
+
+
 
 	  const [showMenu,setShowMenu] = useState(false)
       const [login,setLogin] = useState(false)
@@ -147,8 +151,8 @@ const [s,setS] = useState(false)
 								 <div>
 									 <button className="bg-black text-white p-1 rounded-xl mt-3 " onClick={() => remove(item.id)}>Remove</button>
 								 </div>
-								 <div onClick={() => sum(item)}>
-									{value}
+								 <div>
+									()
 								 </div>
 								 </div>
 								 <div>
@@ -243,7 +247,7 @@ const [s,setS] = useState(false)
 		<div className="input">
 			<input type="text" placeholder="Your door to happiness opens with a search" className="" />
 		</div>
-		<div  className="border flex   w-1/5  relative lg:ml-42 lg:bg-green-100 md:ml-28 md:bg-blue-300 sm:ml-10 sm:bg-red-100">
+		<div  className="border flex   w-1/5  ">
 
 		
 		<div>
