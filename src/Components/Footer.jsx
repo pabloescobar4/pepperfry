@@ -87,7 +87,7 @@ function Footer() {
 			<img
             src="https://cdn140.picsart.com/318452162237211.png"
             alt=""
-            className="w-4/5 h-4/5 cursor-pointer"
+            className=" cursor-pointer"
           />
 			</div>
        

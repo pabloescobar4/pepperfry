@@ -61,12 +61,12 @@ const [s,setS] = useState(false)
 		navigate('/cart')
 	  }
 	  const data = useSelector((state) => state.Cart.cart)
-	 const sum = (item) => {
+	//  const sum = (item) => {
 		
-		const ans =	data.reduce((a, b) => a.id.price + b.id.price)
-		console.log(ans)
+	// 	const ans =	data.reduce((a, b) => a.id.price + b.id.price)
+	// 	console.log(ans)
 		
-	 }
+	//  }
 	
      
 	//   const totalsum = () => {

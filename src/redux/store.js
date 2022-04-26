@@ -10,6 +10,7 @@ import { composeWithDevTools } from '@redux-devtools/extension';
 const rootReducer = combineReducers({
     Data : dataReducer,
 	Cart : cartReducer,
+
   signup:SignUpReducer,
   login:LogInReducer
 })

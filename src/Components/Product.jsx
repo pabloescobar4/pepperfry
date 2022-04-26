@@ -53,6 +53,8 @@ const ProductPage = () => {
   
   const CartData = useSelector((state) => state.Cart.cart);
   console.log(CartData);
+  // const sum = useSelector((state) => state.Cart.sum);
+  // console.log(sum)
 
 
   const Send = (e) => {
