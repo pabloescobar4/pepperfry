@@ -1,0 +1,14 @@
+.line{
+	height:0.5px;
+}
+.colour{
+background-color:rgb(216, 218, 222);
+}
+.clr{ background-color:rgb(231, 233, 235)}
+
+.fontSize{
+	font-size: 10px;
+}
+.h12{ 
+	height:350px
+}
