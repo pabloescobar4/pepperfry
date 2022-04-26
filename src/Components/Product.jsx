@@ -160,7 +160,7 @@ const ProductPage = () => {
         .map((a) => {
           return (
             <>
-              <div className="border border-gray-300 w-80 hover:shadow-lg rounded-xl  hover:shadow-blue-500/50 p-4  cursor-pointer" key={a.id}>
+              <div className="borde border-gray-300 hover:bg-gradient-to-br from-green-400 to-blue-600 w-80 hover:shadow-lg rounded-xl  hover:shadow-blue-500/50 p-4  cursor-pointer" key={a.id}>
                 <div className="   h-full ">
                   <div className="rounded-xl">
                     <img src={a.img[0]} alt="" id="img" className="rounded-xl" />
