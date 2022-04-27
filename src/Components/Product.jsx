@@ -180,11 +180,11 @@ const ProductPage = () => {
                   
                   <div className=" mt-1 mb-2  ">
                    
-                      <div className="text-md font-semi-bold borde w-72 ">
+                      <div className="text-md text-black font-semi-bold borde w-72 ">
                         {a.name}
                       </div>
 
-                      <div className="text-sm mb-5">
+                      <div className="text-sm mb-5 text-black">
                         <p>{a.madeBy}</p>
                       </div>
                    

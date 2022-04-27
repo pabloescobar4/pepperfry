@@ -31,15 +31,15 @@ export const cartReducer = (state=INITIAL_STATE, action) => {
 	}
 	case ADJUSTQTY : 
 	
-	const sum = state.cart[0].id.price
-    console.log(sum)
+
 	return {
     ...state,
-	cart:sum
+	cart:state.cart.map(item => item.id === action.payload.id ? {...item, qty:action.payload.qty} : item)
 	}
 	case CURRENTITEM : 
 	return {
-    
+    ...state,
+	currentItem:action.payload,
 	}
 	default: return state
 	}

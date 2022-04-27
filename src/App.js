@@ -5,6 +5,7 @@ import {HomePage} from "./Components/HomePage"
 import  {NavBar}  from "./Components/Navbar"
 import {Cart} from "./Components/Cart"
 import Footer from "./Components/Footer"
+import { HomeStatic } from './Components/Home.jsx';
 function App() {
   return (
    <>
@@ -12,7 +13,7 @@ function App() {
    <NavBar />
     <Routes>
     
-        <Route path="/" element={<HomePage />} />
+        <Route path="/" element={<HomeStatic />} />
         <Route path="/products" element={<ProductPage />} />
         <Route path="/products:id" element={<ProductPage />} />
         <Route path="/cart" element={<Cart />} />

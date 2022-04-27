@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Style/home.css'
+
 
   import ImageList from '@mui/material/ImageList';
   import ImageListItem from '@mui/material/ImageListItem';

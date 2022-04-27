@@ -1,4 +1,4 @@
-import React ,{useState} from 'react'
+import React ,{useState ,useEffect} from 'react'
 import {useNavigate } from 'react-router'
 import '../Style/Navbar.css'
 import PersonSharpIcon from '@mui/icons-material/PersonSharp';
@@ -21,8 +21,8 @@ const Alert = React.forwardRef(function Alert(props, ref) {
 
 const NavBar = () => {
 
-
-
+	const [price,setPrice] = useState(0)
+console.log(price)
 const [open, setOpen] = React.useState(false);
     
 const handleClick1 = () => {
@@ -61,13 +61,18 @@ const [s,setS] = useState(false)
 		navigate('/cart')
 	  }
 	  const data = useSelector((state) => state.Cart.cart)
-	//  const sum = (item) => {
-		
-	// 	const ans =	data.reduce((a, b) => a.id.price + b.id.price)
-	// 	console.log(ans)
-		
-	//  }
-	
+	  
+	  const total = ( ) => {
+		  let price = 0;
+		  data.map((elm) => { 
+			  price = elm.id.price + price
+		  });
+		  setPrice(price)
+	  }
+
+	useEffect (()=>{
+		total();
+	},[total])
      
 	//   const totalsum = () => {
 	// 	  const sum = 0
@@ -158,7 +163,7 @@ const [s,setS] = useState(false)
 								 <div>
 								   
 								 </div>
-								 
+								
 								 </div>
 								 </div>
                            
@@ -172,27 +177,36 @@ const [s,setS] = useState(false)
 						 })}
 					 </div>
 			  </div>
-			  <div className="border bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl text-white w-full h-16 fixed bottom-0 flex ">
+			  <div className="border pt-2 bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl text-white w-full h-24 fixed bottom-0 flex ">
                   
 				  <div className=" p-4   text-2xl rounded-xl text-white">
                  
 				  </div>
 
-				  <div className="p-4  text-2xl rounded-xl ml-36" >
-				  <Stack spacing={2} sx={{ width: '100%' }}>
-      <div variant="outlined" onClick={handleClick1} className="text-white cursor-pointer ">
-		  <div className="text-white w-full">
+				  <div className="p-4  text-2xl rounded-xl space-x-24" >
+				
+      <div variant="outlined" onClick={handleClick1} className="text-white w-96 flex cursor-pointer borde pl-5 ">
+	  <div className="flex w-full">
+		  <div>
+		  Total 
+		  </div>
+		  <div>
+		  :₹{price}
+		  </div>
+		  <div className="text-white w-1/4 bordr text-base  p-3 ml-10 hover:bg-gradient-to-bl rounded-xl bg-gradient-to-br from-purple-600 to-blue-500 " onClick={()=>{setShowMenu(false)}} >
 		  Proceed
 		  </div>
+		  </div>
+		  <div>
+		  
+		  </div>
+		  
+		
     
       </div>
-      <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
-        <Alert onClose={handleClose} severity="success" sx={{ width: '100%' }}>
-         Your Order is Successful  !!
-        </Alert>
-      </Snackbar>
+  
       
-    </Stack>
+ 
 				  </div>
 
 		
@@ -321,6 +335,13 @@ Modular
 	{menu}
 	{menuMask}
 	{m}
+	<Stack spacing={2} sx={{ width: '100%' }}>
+	</Stack>
+	<Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
+        <Alert onClose={handleClose} severity="success" sx={{ width: '100%' }}>
+         Your Order is Successful  !!
+        </Alert>
+      </Snackbar>
 	</>
    )
   }

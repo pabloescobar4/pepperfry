@@ -1,0 +1,290 @@
+.main{
+    
+}
+.main-one{
+    margin: auto 5%;
+}
+.one{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.img1{
+    width: 330px;
+}
+.one1{
+    padding: auto;
+}
+.one-head{
+    font-family: 'Playfair Display',serif;
+    color: #121212;
+    margin-bottom: 10px;
+    font-size: 33px;
+}
+.one2{
+    margin: 0;
+    font-size: 20px;
+}
+.two{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3% 33.3% 33.3% 33.3%;
+}
+.two::-webkit-scrollbar{
+    width: 1;
+}
+.two3{
+    display:grid;
+    grid-template-columns: 53% 53%;
+}
+.two-space{
+    padding-top: 5px;
+}
+.img21{
+    width: 440px;
+}
+.img22{
+    width: 226px;
+    height: 230px;
+}
+.change-color{
+    background-color:#e9f1f5;
+}
+.three-space{
+    padding: 3% 0 1% 0;
+}
+.three{
+    display: grid;
+    grid-template-columns: 27% 24% 24% 24%;
+    gap: 1;
+}
+.main-two{
+    padding: 0% 4% 0% 5%;
+}
+.three1{
+    margin: 2%;
+    padding: auto;
+}
+.img3{
+    width: 318px;
+}
+.three-text{
+    font-size: 21.8px;
+    text-align: left;
+    margin-top: 0;
+    padding: 0% 4% 0% 0%;
+}
+.three-redcolor{
+    padding-top: 5%;
+    font-weight: 600;
+    color: #FF7035;
+}
+.three-img-head-color{
+    font-size: 15px;
+    color: #848484;
+    margin-top: 0;
+}
+.three-head{
+    margin: 0;
+    font-size: 18px;
+    color: #121212;
+}
+.img4{
+    width: 445px;
+}
+.five{
+    display: grid;
+    flex-direction: row;;
+    grid-template-columns: 25% 25% 25% 25% 25% 25%;
+     gap: 1; 
+}
+.img5{
+    width: 333px;
+}
+.img51{
+    width: 333px;
+    height: 385px;
+}
+.six{
+    width: 98%;
+    display: grid;
+    grid-template-columns: 17% 17% 17% 17% 17% 17%;
+}
+.img6{
+    width: 211px;
+}
+.seven{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: auto;
+    margin-left: 5px;
+}
+.img7{
+    width: 672px;
+    
+}
+.container{
+   
+    color: white;
+}
+.img8{
+    width: 100%;
+}
+
+.text-head{
+    margin-bottom: 7px;
+    color: #323232;
+}
+.text-img{
+    font-size: 12px;
+    padding: 2px;
+    color: #121212;
+    cursor: pointer;
+}
+.top-left{
+    position: absolute;
+    top: 1px;
+    color: black;
+    left: 46px;
+}
+.bottom-left-1{
+    position: absolute;
+    color: black;
+    bottom: 90px;
+    text-align: left;
+    left: 230px;
+}
+.top-left-1{
+    position: absolute;
+    top: 75px;
+    color: black;
+    left: 46px;
+    text-align: left;
+}
+.bottom-left-2{
+    position: absolute;
+    color: black;
+    bottom: 70px;
+    text-align: left;
+    left: 430px;
+}
+.top-left-2{
+    position: absolute;
+    top: 75px;
+    color: black;
+    left: 230px;
+    text-align: left;
+}
+.bottom-left-3{
+    position: absolute;
+    color: black;
+    bottom: 70px;
+    text-align: left;
+    left: 630px;
+}
+.top-left-3{
+    position: absolute;
+    top: 75px;
+    color: black;
+    left: 430px;
+    text-align: left;
+}
+.top-left-4{
+    position: absolute;
+    top: 75px;
+    color: black;
+    left: 630px;
+    text-align: left;
+}
+.top-left-5{
+    position: absolute;
+    top: 75px;
+    color: black;
+    left: 830px;
+    text-align: left;
+}
+.text-img:hover{
+    color: #FF7035;
+}
+.img9{
+    width: 440px;
+}
+.eight-text{
+    margin: 5% 0 0 0;
+    font-weight: 500;
+    color: #121212;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;  
+    margin-bottom: 20px;
+}
+.eight1{
+    margin: 2%;
+}
+.eight-below-text{
+    font-size: 11;
+    margin-bottom: 0;
+}
+.eight-below-text-2{
+    font-size: 10;
+    color: #848484;
+}
+.img6{
+    font-size: 11;
+    width: 214px;
+}
+.arrow{
+    margin-top: 40%;
+    margin-right: 5%;
+    font-size: 20px;
+    text-align: right;
+}
+.last-color{
+    margin-top: 40%;
+    margin-left: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff7035;
+    /* text-align: right; */
+}
+.main-one-head{
+    display: grid;
+    grid-template-columns: 90% 10%;
+}
+.main-swiper{
+    overflow: initial;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after{
+    content: "";
+}
+
+.swiper-icon{
+    font-size: 2rem;
+    color: var(--first-color);
+}
+
+.swiper-button-prev{
+    left: -.1rem;
+   
+}
+
+.swiper-button-next{
+    right: -.1rem;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets{
+    padding-top: 5px;
+    bottom: 2.5rem;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: var(--first-color);
+}
+
+.swiper-button-prev,
+.swiper-button-next,
+.swiper-pagination-bullet{
+    outline: none;
+}
