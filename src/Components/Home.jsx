@@ -1,5 +1,5 @@
 import React from "react";
-import '../Style/Home.css'
+import '../Style/Home1.css'
 import Slideshow from "./Slideshow";
 
 export const HomeStatic = () => {
