@@ -8,7 +8,7 @@ import Box from '@mui/material/Box';
 import { Pagination } from '@mui/material';
 
 // import {useNavigate,useParams} from 'react-router';
-import {Button ,ButtonGroup} from '@mui/material'
+import {ButtonGroup} from '@mui/material'
 import {addCart} from '../redux/Cart/action'
 
 

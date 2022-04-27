@@ -9,7 +9,7 @@ import ClearIcon from '@mui/icons-material/Clear';
 import {removeCart} from '../redux/Cart/action'
 import {useDispatch} from 'react-redux'
 import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
+// import Button from '@mui/material/Button';
 import Snackbar from '@mui/material/Snackbar';
 import MuiAlert from '@mui/material/Alert';
 
@@ -45,9 +45,7 @@ const [s,setS] = useState(false)
 		
 	}
 
-	const done = () => {
-		alert("Congratulation your order is placed")
-	}
+
 
 	
 	const navigate = useNavigate()
@@ -214,7 +212,7 @@ const [s,setS] = useState(false)
 			  </div>
 		  </div>
 	  }
-	  const [blur,setBlur] = useState(false)
+
 	
 	 if(showMenu){
 		 menuMask =
