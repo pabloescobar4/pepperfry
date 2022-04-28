@@ -20,7 +20,7 @@ const Alert = React.forwardRef(function Alert(props, ref) {
   });
 
 const NavBar = () => {
-
+	const [search,setSearch] = useState("")
 	const [price,setPrice] = useState(0)
 console.log(price)
 const [open, setOpen] = React.useState(false);
@@ -78,18 +78,18 @@ const [s,setS] = useState(false)
 	//   }
   
 
-
+    
 
 	  const [showMenu,setShowMenu] = useState(false)
       const [login,setLogin] = useState(false)
 	  let m 
 	  if(login){
 		  m = <div>
-			  <div className="fixed bg-white top-24 p-5 right-20 w-25 h-30 z-50 shadow " onMouseEnter={()=>{setLogin(!s)}} onMouseLeave={()=>{setLogin(s)}}>
+			  <div className="fixed bg-white top-24 p-5  right-20 w-25 h-30 z-50 shadow " onMouseEnter={()=>{setLogin(!s)}} onMouseLeave={()=>{setLogin(s)}}>
 			
-             <div className= "h-1/2 w-full p-2 bg-blue-300 pl-5" onClick={()=>{setLogin(false)}}>
-				 <button onClick={() =>{handleClicklogin()}}> LOGIN/REGISTER</button>
-
+             <div className= "h-1/2 w-full p-2 bg-blue-300 pl-16" onClick={()=>{setLogin(false)}}>
+				 <button onClick={() =>{handleClicklogin()}} className=""> LOGIN/REGISTER</button>
+             
                
 			 </div>
 			 <div className="text-sm h-1/2 -1/2 pt-3">
@@ -257,7 +257,7 @@ const [s,setS] = useState(false)
 		</div>
 
 		<div className="input">
-			<input type="text" placeholder="Your door to happiness opens with a search" className="" />
+			<input type="text" placeholder="Your door to happiness opens with a search" className=""  onChange={(e) => setSearch(e.target.value)} />
 		</div>
 		<div  className="borde flex   w-2/5   lg:pl-24 lg: md:ml-28 md: sm:ml-10 sm:">
 
@@ -340,7 +340,13 @@ Modular
          Your Order is Successful  !!
         </Alert>
       </Snackbar>
+
+	
+       
+        
 	</>
+
+	
    )
   }
   export {NavBar}

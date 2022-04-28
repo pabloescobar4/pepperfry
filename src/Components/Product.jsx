@@ -6,6 +6,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { storeData } from '../redux/storeData/action';
 import Box from '@mui/material/Box';
 import { Pagination } from '@mui/material';
+import CircularProgress from '@mui/material/CircularProgress';
 
 // import {useNavigate,useParams} from 'react-router';
 import {ButtonGroup} from '@mui/material'
@@ -23,10 +24,13 @@ const ProductPage = () => {
   const [val,setVal] = useState("")
 // const params = useParams()
 // const navigate = useNavigate()
-
+ const [loading,setLoading] =useState(false)
+ const [error,setError] =useState(false)
   const dispatch = useDispatch();
   const [page, setPage] = useState(1);
   const fetchData = async () => {
+   
+    setError(false)
     return axios({
       url: `https://pepperfrydb1.herokuapp.com/furniture?_page=${page}&_limit=30`,
       method: 'GET',
@@ -34,12 +38,15 @@ const ProductPage = () => {
     })
       .then((response) => {
         // const data =(response.data)
-
+       setLoading(false)
         // console.log(response.data)
         dispatch(storeData(response.data));
       })
 
-      .catch((error) => {});
+      .catch((error) => {
+        setLoading(true);
+        setError(true)
+      });
   };
 
   useEffect(() => {
@@ -91,6 +98,16 @@ const ProductPage = () => {
   
   return (
     <div>
+      <div className="ml-96 mt-10" onChange={(e)=>{setLoading(false)}}>
+        <div className="ml-96"> 
+        
+        <Box sx={{ display: 'flex' }}>
+      <CircularProgress />
+       </Box>
+        </div>
+   
+      </div>
+        
   <div className="ml-14 mt-5">
        <input type="text"placeholder="What are you loooking" className="search" onChange={(e) => setSearch(e.target.value)} />
         </div>
@@ -137,7 +154,7 @@ const ProductPage = () => {
     </Box>
        </div>
       <div className="container " >
-      
+   
     
    
         {data
@@ -221,6 +238,7 @@ const ProductPage = () => {
           onChange={(e, value) => setPage(value)}
         />
       </Box>
+      
 
     </div>
   );

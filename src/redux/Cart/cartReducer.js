@@ -37,6 +37,7 @@ export const cartReducer = (state=INITIAL_STATE, action) => {
 	cart:state.cart.map(item => item.id === action.payload.id ? {...item, qty:action.payload.qty} : item)
 	}
 	case CURRENTITEM : 
+	
 	return {
     ...state,
 	currentItem:action.payload,
