@@ -101,9 +101,9 @@ const ProductPage = () => {
       <div className="ml-96 mt-10" onChange={(e)=>{setLoading(false)}}>
         <div className="ml-96"> 
         
-        <Box sx={{ display: 'flex' }}>
+        {/* <Box sx={{ display: 'flex' }}>
       <CircularProgress />
-       </Box>
+       </Box> */}
         </div>
    
       </div>
