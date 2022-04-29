@@ -285,7 +285,7 @@ const [s,setS] = useState(false)
 	   </div>
 	</div>
 	
-	<div className="borde flex justify-start ml-16 text-sm font-semibold " onClick={()=>{handleClickCart()}}>
+	<div className="border Navbar3   ml-16 text-sm font-semibold space-x-5 " onClick={()=>{handleClickCart()}}>
     <div className="p-1 borde orange1 cursor-pointer">
 		Furniture
 	</div>
@@ -311,7 +311,7 @@ const [s,setS] = useState(false)
 	</div>
 	<div className="p-1 ml-5 orange1">
 		 
-Decor
+    Decor
 
 	</div>
 	<div className="p-1 ml-5 orange1">
